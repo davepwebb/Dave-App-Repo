@@ -6,12 +6,15 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>0f1874579763b110e5a61c800153afd6</copied_from>
         <copied_from_name>DW Action JDBC Test</copied_from_name>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>copy_of_dw_action_jdbc_test</internal_name>
         <label_cache>[]</label_cache>
@@ -177,6 +180,7 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_183d0bf097777d10e5a61c800153afae^id=183d0bf097777d10e5a61c800153afae"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e^id=183d0bf097777d10e5a61c800153afae"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=183d0bf097777d10e5a61c800153afae"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=183d0bf097777d10e5a61c800153afae"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=183d0bf097777d10e5a61c800153afae^sys_idNOT IN143d0bf097777d10e5a61c800153afce"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -277,11 +281,11 @@
         <sys_created_on>2024-01-15 17:03:55</sys_created_on>
         <sys_id>103d0bf097777d10e5a61c800153afd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_183d0bf097777d10e5a61c800153afae_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <url/>
@@ -289,6 +293,29 @@
     </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=d03d0bf097777d10e5a61c800153afa7"/>
     <sys_hub_action_output action="delete_multiple" query="model=d03d0bf097777d10e5a61c800153afa7^sys_idNOT IN503d0bf097777d10e5a61c800153afe2,903d0bf097777d10e5a61c800153afe7"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD903d0bf03d777d1072db5367285940df</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3adc763897b37d10e5a61c800153af72</scope_name>
+        <serialized_content>{"FlowDesigner:FD903d0bf03d777d1072db5367285940df":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[a9f7c5fe-bee2-4f7a-bb1e-c94159adc038].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD903d0bf03d777d1072db5367285940df.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":null,\"co_type_name\":\"FD903d0bf03d777d1072db5367285940df\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"true\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:03:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>543d0bf097777d10e5a61c800153afdf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD903d0bf03d777d1072db5367285940df</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_complex_object_543d0bf097777d10e5a61c800153afdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:03:56</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -491,11 +518,11 @@
         <sys_created_on>2024-01-15 17:03:55</sys_created_on>
         <sys_id>143d0bf097777d10e5a61c800153afe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d03d0bf097777d10e5a61c800153afa7___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <url/>
@@ -514,11 +541,11 @@
         <sys_created_on>2024-01-15 17:03:55</sys_created_on>
         <sys_id>a43d0bf097777d10e5a61c800153afec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d03d0bf097777d10e5a61c800153afa7___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <url/>

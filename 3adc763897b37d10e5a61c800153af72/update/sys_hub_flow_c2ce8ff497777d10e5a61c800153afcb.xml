@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>45af608597e27110e5a61c800153af1f</copied_from>
         <copied_from_name>DW Track Login/Logout of role-ba</copied_from_name>
         <description>Look for Login/Logout events in the System Logs &gt; Events, and see if that user has specific additional roles to be tracked</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>copy_of_dw_track_loginlogout_of_rolebased_users</internal_name>
         <label_cache>[{"name":"Created_1.current.parm1","label":"Trigger - Record Created➛Event Record➛Parm1","reference":"","reference_display":"Parm1","type":"string","base_type":"string","parent_table_name":"sysevent","column_name":"parm1"},{"name":"fa7d0a4f-20ac-4080-9ee1-fe7468c7a048.Records","label":"2 - Look Up Records➛User Role Records","reference":"sys_user_has_role","reference_display":"User Role","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"85a9774e-bad5-408a-95cf-ef04dfad698d.item.role.name","label":"3 - For Each➛User Role Record➛Role➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_role","column_name":"name"}]</label_cache>
         <latest_snapshot/>
@@ -289,6 +292,7 @@
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -353,6 +357,7 @@
         <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -417,6 +422,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>d5eb9a7f-8cb2-45f4-95d5-63045b0f51b2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -452,14 +458,14 @@
         <block display_value="">bdc9704197667110e5a61c800153aff4</block>
         <comment/>
         <connected_to/>
-        <decision_table display_value="ConMon Privileged Role Logging">a3ad240d97a27110e5a61c800153af5b</decision_table>
-        <decision_table_inputs/>
+        <decision_table display_value="">a3ad240d97a27110e5a61c800153af5b</decision_table>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>4</order>
@@ -521,55 +527,6 @@
         <value>Does this require ConMon Logging ?</value>
         <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=0ececff497777d10e5a61c800153af14"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>0ececff497777d10e5a61c800153af14</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:10:52</sys_created_on>
-        <sys_id>02cecff497777d10e5a61c800153af1a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:10:52</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>0ececff497777d10e5a61c800153af14</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:10:52</sys_created_on>
-        <sys_id>86cecff497777d10e5a61c800153af1a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:10:52</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>0ececff497777d10e5a61c800153af14</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:10:52</sys_created_on>
-        <sys_id>c2cecff497777d10e5a61c800153af1a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:10:52</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>u_role_name</field>
-        <id>0ececff497777d10e5a61c800153af14</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:10:52</sys_created_on>
-        <sys_id>8ececff497777d10e5a61c800153af1b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:10:52</sys_updated_on>
-        <table>var__m_sys_decision_input_a3ad240d97a27110e5a61c800153af5b</table>
-        <value>{{85a9774e-bad5-408a-95cf-ef04dfad698d.item.role.name}}</value>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=0ececff497777d10e5a61c800153af14"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0ececff497777d10e5a61c800153af14"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0ececff497777d10e5a61c800153af14"/>
@@ -585,6 +542,7 @@
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -632,6 +590,7 @@
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>7</order>
@@ -680,6 +639,7 @@
         <flow display_value="Copy of DW Track Login/Logout of role-based users">c2ce8ff497777d10e5a61c800153afcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>5</order>
@@ -732,11 +692,11 @@
         <sys_created_on>2024-01-15 17:10:52</sys_created_on>
         <sys_id>46cecff497777d10e5a61c800153af0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c2ce8ff497777d10e5a61c800153afcb_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:10:52</sys_updated_on>
         <url/>
@@ -755,11 +715,11 @@
         <sys_created_on>2024-01-15 17:10:52</sys_created_on>
         <sys_id>46cecff497777d10e5a61c800153af0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c2ce8ff497777d10e5a61c800153afcb_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:10:52</sys_updated_on>
         <url/>

@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>c4ce6bfe97722110e5a61c800153af8c</copied_from>
         <copied_from_name>Issue Tag</copied_from_name>
         <description>Flow to auto-assign a tag to an item</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>copy_of_issue_tag</internal_name>
         <label_cache>[{"name":"5d3510bb-97a4-462b-b51c-333557842c05.Record","label":"1 - Look Up Record➛Tag Record","reference":"label","reference_display":"Tag","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5d3510bb-97a4-462b-b51c-333557842c05.Table","label":"1 - Look Up Record➛Tag Table","reference":"label","reference_display":"Tag","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5d3510bb-97a4-462b-b51c-333557842c05.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"5d3510bb-97a4-462b-b51c-333557842c05.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"5d3510bb-97a4-462b-b51c-333557842c05.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5d3510bb-97a4-462b-b51c-333557842c05.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.correlation_id","label":"Trigger - Record Created➛Issue Record➛Correlation ID","reference":"","reference_display":"Correlation ID","type":"string","base_type":"string","parent_table_name":"sn_grc_issue","column_name":"correlation_id"},{"name":"ea6434e1-f9a6-4843-9593-64aea07645b7.record","label":"2 - Create Record➛Label Entry Record","reference":"label_entry","reference_display":"Label Entry","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea6434e1-f9a6-4843-9593-64aea07645b7.table_name","label":"2 - Create Record➛Label Entry Table","reference":"label_entry","reference_display":"Label Entry","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea6434e1-f9a6-4843-9593-64aea07645b7.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ea6434e1-f9a6-4843-9593-64aea07645b7.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Issue Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_grc_issue","column_name":"number"},{"name":"5d3510bb-97a4-462b-b51c-333557842c05.Record.sys_id","label":"1 - Look Up Record➛Tag Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"label","column_name":"sys_id"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_grc_issue","column_name":"sys_id"},{"name":"ec48670f-2cef-4925-b3a8-c50ff499de12.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ec48670f-2cef-4925-b3a8-c50ff499de12.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ec48670f-2cef-4925-b3a8-c50ff499de12.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ec48670f-2cef-4925-b3a8-c50ff499de12.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Issue Record","reference":"sn_grc_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <latest_snapshot/>
@@ -289,6 +292,7 @@
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Issue Tag">2380df3c97777d10e5a61c800153afa5</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -353,6 +357,7 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Issue Tag">2380df3c97777d10e5a61c800153afa5</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -429,6 +434,7 @@
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Issue Tag">2380df3c97777d10e5a61c800153afa5</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -501,11 +507,11 @@
         <sys_created_on>2024-01-15 17:18:37</sys_created_on>
         <sys_id>7b80df3c97777d10e5a61c800153afbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2380df3c97777d10e5a61c800153afa5_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:18:37</sys_updated_on>
         <url/>
@@ -524,11 +530,11 @@
         <sys_created_on>2024-01-15 17:18:37</sys_created_on>
         <sys_id>b380df3c97777d10e5a61c800153afb0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2380df3c97777d10e5a61c800153afa5_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:18:37</sys_updated_on>
         <url/>

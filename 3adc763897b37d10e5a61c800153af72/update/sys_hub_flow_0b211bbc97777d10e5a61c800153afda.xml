@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from>4cdf233997361910e5a61c800153afd4</copied_from>
         <copied_from_name>Göran Lundqvist - Automation via</copied_from_name>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>copy_of_gran_lundqvist__automation_via_record_producer</internal_name>
         <label_cache>[{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.change","label":"6 - Get Instance Data➛change","reference_display":"change","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD6a693651266d91103b2d909e6973da48","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"c6c3ea07-d4db-4a51-a632-3ad853d565ff"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.ds_parsed_stream","label":"6 - Get Instance Data➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.error_code","label":"6 - Get Instance Data➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.status_code","label":"6 - Get Instance Data➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.error_message","label":"6 - Get Instance Data➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.response_headers","label":"6 - Get Instance Data➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.ds_output_page_variables","label":"6 - Get Instance Data➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.item","label":"6 - Get Instance Data➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.ds_count","label":"6 - Get Instance Data➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.count","label":"6 - Get Instance Data➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.page_count","label":"6 - Get Instance Data➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"44433b1c-4608-4a9f-abee-5f40874dbfd6.item_count","label":"6 - Get Instance Data➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"36cb6942-b57a-45af-b2d2-97d21a512c17.__dont_treat_as_error__","label":"5 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"36cb6942-b57a-45af-b2d2-97d21a512c17.__action_status__","label":"5 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"36cb6942-b57a-45af-b2d2-97d21a512c17.Table","label":"5 - Create Task➛Incident Task Table","reference":"incident_task","reference_display":"Incident Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36cb6942-b57a-45af-b2d2-97d21a512c17.Record","label":"5 - Create Task➛Incident Task Record","reference":"incident_task","reference_display":"Incident Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd52a59c-824f-4d52-b94b-3858199af03d.cmdb_ci","label":"3 - Get Catalog Variables➛cmdb_ci","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"cd52a59c-824f-4d52-b94b-3858199af03d.playbook","label":"3 - Get Catalog Variables➛playbook","reference":"","reference_display":"playbook","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"cd52a59c-824f-4d52-b94b-3858199af03d.caller_id","label":"3 - Get Catalog Variables➛caller_id","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"cd52a59c-824f-4d52-b94b-3858199af03d.short_description","label":"3 - Get Catalog Variables➛short_description","reference":"","reference_display":"short_description","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"cd52a59c-824f-4d52-b94b-3858199af03d.svc_user","label":"3 - Get Catalog Variables➛svc_user","reference":"","reference_display":"svc_user","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"04846bb5-800e-4f29-9f1a-720746f73213.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"04846bb5-800e-4f29-9f1a-720746f73213.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"04846bb5-800e-4f29-9f1a-720746f73213.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"04846bb5-800e-4f29-9f1a-720746f73213.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"04846bb5-800e-4f29-9f1a-720746f73213.Table","label":"1 - Look Up Record➛Item Produced Record Table","reference":"sc_item_produced_record","reference_display":"Item Produced Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04846bb5-800e-4f29-9f1a-720746f73213.Record","label":"1 - Look Up Record➛Item Produced Record Record","reference":"sc_item_produced_record","reference_display":"Item Produced Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
@@ -289,6 +292,7 @@
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -366,6 +370,7 @@
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>5eef88e6-62c0-4069-9cc9-5fa9bd72ee87</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -429,6 +434,7 @@
         <compiled_snapshot>f7d9328e97951110e5a61c800153af4c</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>5eef88e6-62c0-4069-9cc9-5fa9bd72ee87</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -454,6 +460,7 @@
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>25c2a291-43f6-4f74-8b74-2c0a8106bc23</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -548,6 +555,7 @@
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -581,6 +589,7 @@
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -654,6 +663,7 @@
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>8</order>
@@ -687,6 +697,7 @@
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -764,11 +775,11 @@
         <sys_created_on>2024-01-15 17:21:19</sys_created_on>
         <sys_id>17211bbc97777d10e5a61c800153afe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0b211bbc97777d10e5a61c800153afda_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:19</sys_updated_on>
         <url/>
@@ -787,11 +798,11 @@
         <sys_created_on>2024-01-15 17:21:19</sys_created_on>
         <sys_id>17211bbc97777d10e5a61c800153afea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0b211bbc97777d10e5a61c800153afda_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:19</sys_updated_on>
         <url/>

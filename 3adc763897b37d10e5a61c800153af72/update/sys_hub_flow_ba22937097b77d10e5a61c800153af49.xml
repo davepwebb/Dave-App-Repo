@@ -5,6 +5,7 @@
         <active>false</active>
         <annotation>Taken from "Go with the Flow"</annotation>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
@@ -12,6 +13,8 @@
         <copied_from_name>Error Handling Subflow</copied_from_name>
         <description>Courtesy of Jonathan Crosby and Robert Fedoruk
 https://www.youtube.com/watch?v=Br5p7inqbXw</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>copy_of_error_handling_subflow</internal_name>
         <label_cache>[{"name":"subflow.message","label":"Input➛Message","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"82b8f985-62e6-4b4c-8e8f-4eecc22b1f5c"}},{"name":"subflow.code","label":"Input➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfad9193-5d48-4c43-92ce-a09ca3f7e1a5"}},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.Record.name","label":"3 - Look Up Record➛Flow engine context Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_flow_context","column_name":"name"},{"name":"86efa4d1-3081-4072-8c1a-a202dcea1df3.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86efa4d1-3081-4072-8c1a-a202dcea1df3.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86efa4d1-3081-4072-8c1a-a202dcea1df3.Table","label":"4 - Create Task➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86efa4d1-3081-4072-8c1a-a202dcea1df3.Record","label":"4 - Create Task➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"de2c5242-949c-4195-a301-9cb3e11933df.__dont_treat_as_error__","label":"4 - Create Task from Flow Data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"de2c5242-949c-4195-a301-9cb3e11933df.__action_status__","label":"4 - Create Task from Flow Data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"de2c5242-949c-4195-a301-9cb3e11933df.status","label":"4 - Create Task from Flow Data➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Missing table or fields","value":"missing_data","order":1.0},{"label":"Error","value":"error","order":2.0},{"label":"Success","value":"success","order":3.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"257ba6a6-8456-410d-b688-9b36da6194a5"}},{"name":"de2c5242-949c-4195-a301-9cb3e11933df.record","label":"4 - Create Task from Flow Data➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id","staticDependent":"task","uiUniqueId":"17ea72fd-f4b2-4667-9043-4351df3193fa"}},{"name":"de2c5242-949c-4195-a301-9cb3e11933df.table","label":"4 - Create Task from Flow Data➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"Table Name","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name","uiUniqueId":"7017bb10-90b1-4629-86fa-38521319a69a"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.Record.source_record","label":"2 - Look Up Record➛Flow engine context Record➛Source Record","reference":"","reference_display":"Source Record","type":"document_id","base_type":"document_id","parent_table_name":"sys_flow_context","column_name":"source_record"},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.Table","label":"3 - Look Up Record➛Flow engine context Table","reference":"sys_flow_context","reference_display":"Flow engine context","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"989bd58f-63bd-400e-9905-9d10915cbcca.Record","label":"3 - Look Up Record➛Flow engine context Record","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.thiscontext","label":"Flow Variables➛thiscontext","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5a33b88d-6708-4216-8356-c3ccf9dc303d"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.Table","label":"2 - Look Up Record➛Flow engine context Table","reference":"sys_flow_context","reference_display":"Flow engine context","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"11c217c8-e783-42e4-ae34-7963d8fee389.Record","label":"2 - Look Up Record➛Flow engine context Record","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
@@ -243,6 +246,7 @@ https://www.youtube.com/watch?v=Br5p7inqbXw</description>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Error Handling Subflow">ba22937097b77d10e5a61c800153af49</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -307,6 +311,7 @@ https://www.youtube.com/watch?v=Br5p7inqbXw</description>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Error Handling Subflow">ba22937097b77d10e5a61c800153af49</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -385,6 +390,7 @@ MESSAGE: ﻿{{subflow.message}}^work_notes=fd-scripted^cmdb_ci={"display":"NoIde
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Error Handling Subflow">ba22937097b77d10e5a61c800153af49</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -453,6 +459,7 @@ MESSAGE: ﻿{{subflow.message}}^work_notes=fd-scripted^cmdb_ci={"display":"NoIde
         <flow display_value="Copy of Error Handling Subflow">ba22937097b77d10e5a61c800153af49</flow>
         <flow_variable/>
         <flow_variables_assigned>thiscontext</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>1</order>
@@ -587,11 +594,11 @@ MESSAGE: ﻿{{subflow.message}}^work_notes=fd-scripted^cmdb_ci={"display":"NoIde
         <sys_created_on>2024-01-15 17:25:40</sys_created_on>
         <sys_id>4322937097b77d10e5a61c800153af75</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Code</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ba22937097b77d10e5a61c800153af49_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:25:40</sys_updated_on>
         <url/>
@@ -610,11 +617,11 @@ MESSAGE: ﻿{{subflow.message}}^work_notes=fd-scripted^cmdb_ci={"display":"NoIde
         <sys_created_on>2024-01-15 17:25:40</sys_created_on>
         <sys_id>8322937097b77d10e5a61c800153af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ba22937097b77d10e5a61c800153af49_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:25:40</sys_updated_on>
         <url/>

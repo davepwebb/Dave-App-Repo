@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDeb64f5512affb1101e1dd16d9d51ff42</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3adc763897b37d10e5a61c800153af72</scope_name>
+        <serialized_content>{"FlowDesigner:FDeb64f5512affb1101e1dd16d9d51ff42":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDeb64f5512affb1101e1dd16d9d51ff42.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"list_of_objects\",\"mandatory\":\"false\",\"child_name\":\"list_of_objects_child0\",\"uiUniqueId\":\"e96768d6-996e-4cd3-94bd-d92c054fba3b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDeb64f5512affb1101e1dd16d9d51ff42\",\"child_label\":\"list_of_objects_child0\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"46ea3233-777b-4389-a74a-ee23c8cab9d9\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 23:53:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af64f55197ffb1107671f91de053af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDeb64f5512affb1101e1dd16d9d51ff42</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_complex_object_af64f55197ffb1107671f91de053af42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 23:53:05</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

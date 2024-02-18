@@ -5,12 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>b66a183497c3f910e5a61c800153af10</copied_from>
         <copied_from_name>Copy: Notify Control Test Assign</copied_from_name>
         <description>IRM Alternative - simulate "Group By...." for filter condition</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>copy_of_copy_notify_control_test_assignee_with_subflow_group_by</internal_name>
         <label_cache>[{"name":"966d5ce7-c082-4f19-82f4-af231c64d137.Record","label":"17 - Look Up Record➛Control test Record","reference":"sn_audit_control_test","reference_display":"Control test","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15c7ecf1-8fee-4722-b760-b7df8a074eda.item","label":"15 - For Each➛variable_child0","reference_display":"variable_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"fb9991c9-0dc4-4bfc-ba07-c92bf098fbca.variable","label":"14 - Convert List to Array➛variable","reference_display":"variable","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDbb736ccd3e8325102562219b9c5d3da7","child_label":"variable_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"variable_child0","child_uiUniqueId":"341adfa8-c86e-4b1d-af00-1e25672c4276","uiUniqueId":"61b5ae2f-8d11-4685-9e90-e360fb7ba3ea"}},{"name":"75c93fed-1b3a-4d0a-864e-86c52a2391a8.Records","label":"2 - Look Up Records➛Control test Records","reference":"sn_audit_control_test","reference_display":"Control test","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6f4edd08-2539-41f3-8ea4-be08e2127cd3.item.assigned_to.email","label":"3 - For Each➛Control test Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"flow_variable.unique_assignee","label":"Flow Variables➛Unique Assignee","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b0d9e72a-0a90-4225-94e6-92a6621d85a9"}},{"name":"flow_variable.assignee_list","label":"Flow Variables➛Assignee List","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c57979a7-d280-4f1c-85ae-21d20349a4b5"}}]</label_cache>
         <latest_snapshot/>
@@ -114,14 +117,14 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=75cc073097777d10e5a61c800153af88^sys_idNOT IN06cc473097777d10e5a61c800153af10,06cc473097777d10e5a61c800153af2a,4acc073097777d10e5a61c800153afd1,8ecc073097777d10e5a61c800153afd6,c6cc073097777d10e5a61c800153afca,c6cc473097777d10e5a61c800153af15,cecc473097777d10e5a61c800153af30"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Convert List to Array">6360076c97cf2110e5a61c800153afd1</action_type>
-        <action_type_parent display_value="DW: Convert List to Array">96e1faa8974f2110e5a61c800153affb</action_type_parent>
+        <action_type display_value="">6360076c97cf2110e5a61c800153afd1</action_type>
+        <action_type_parent display_value="">96e1faa8974f2110e5a61c800153affb</action_type_parent>
         <attributes/>
         <comment>Convert the comma-separated list into an Array.String</comment>
         <compiled_snapshot>6360076c97cf2110e5a61c800153afd1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id>2adcfcd7-d189-4747-87c5-8a3c30d79068</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -135,19 +138,6 @@
         <ui_id>fb9991c9-0dc4-4bfc-ba07-c92bf098fbca</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=06cc473097777d10e5a61c800153af10"/>
-    <sys_element_mapping action="delete_multiple" query="id=06cc473097777d10e5a61c800153af10"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>input_parameter</field>
-        <id>06cc473097777d10e5a61c800153af10</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:02:07</sys_created_on>
-        <sys_id>86cc473097777d10e5a61c800153af11</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:02:07</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6360076c97cf2110e5a61c800153afd1</table>
-        <value>{{flow_variable.assignee_list}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=06cc473097777d10e5a61c800153af10"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=06cc473097777d10e5a61c800153af10"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -160,6 +150,7 @@
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>17</order>
         <parent_ui_id>15c7ecf1-8fee-4722-b760-b7df8a074eda</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -250,6 +241,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>6f4edd08-2539-41f3-8ea4-be08e2127cd3</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -288,6 +280,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -325,6 +318,7 @@
         <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -379,6 +373,7 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>15c7ecf1-8fee-4722-b760-b7df8a074eda</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -417,6 +412,7 @@
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
+        <generation_source/>
         <order>18</order>
         <parent_ui_id>15c7ecf1-8fee-4722-b760-b7df8a074eda</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -511,6 +507,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -586,6 +583,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>unique_assignee,assignee_list</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>7</order>
@@ -644,6 +642,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned>assignee_list</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>1</order>
@@ -692,6 +691,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -740,6 +740,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>8</order>
@@ -775,6 +776,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>unique_assignee,assignee_list</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>9</order>
@@ -833,6 +835,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -881,6 +884,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>13</order>
@@ -915,6 +919,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -963,6 +968,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1011,6 +1017,7 @@
         <flow display_value="Copy of Copy: Notify Control Test Assignee (with Subflow &quot;Group By...&quot;)">75cc073097777d10e5a61c800153af88</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>12</order>
