@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description>Join Task to Group Member table - TABM</description>
+        <label/>
+        <name>u_task_grmember</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 22:15:38</sys_created_on>
+        <sys_id>e87c1e1e47e60210f3e2a3c9316d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_task_grmember</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_db_view_e87c1e1e47e60210f3e2a3c9316d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 22:15:38</sys_updated_on>
+    </sys_db_view>
+</record_update>

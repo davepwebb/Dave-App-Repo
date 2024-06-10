@@ -5,15 +5,12 @@
         <active>false</active>
         <annotation>Use a value that has been passed by API to assign a tag</annotation>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Use a value that has been passed by API to assign a tag</description>
-        <flow_priority/>
-        <generation_source/>
         <internal_name>multiple_autoassign_tag</internal_name>
         <label_cache>[{"name":"subflow.tag_value","label":"Input➛Tag Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9381d852-7937-4f54-aab7-aa82b8bd4e9e","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <latest_snapshot/>
@@ -750,7 +747,6 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Multiple Auto-Assign Tag">ee7b215997b7b1107671f91de053af75</flow>
-        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -793,7 +789,6 @@
         <flow display_value="Multiple Auto-Assign Tag">ee7b215997b7b1107671f91de053af75</flow>
         <flow_variable/>
         <flow_variables_assigned/>
-        <generation_source/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
         <order>2</order>

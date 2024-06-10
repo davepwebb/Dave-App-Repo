@@ -5,15 +5,12 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>aea749f797b67110e5a61c800153afb3</copied_from>
         <copied_from_name>DW Notification Options</copied_from_name>
         <description>Send Email, Create an Event, Send Notification</description>
-        <flow_priority/>
-        <generation_source/>
         <internal_name>copy_of_dw_notification_options</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.assignment_group.include_members","label":"Trigger - Record Created or Updated➛Incident Record➛Assignment group➛Include members","reference":"","reference_display":"Include members","type":"boolean","base_type":"boolean","parent_table_name":"sys_user_group","column_name":"include_members"},{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Incident Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assignment_group.name","label":"Trigger - Record Created or Updated➛Incident Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created or Updated_1.current.caller_id.email","label":"Trigger - Record Created or Updated➛Incident Record➛Caller➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"Created or Updated_1.current.assignment_group.manager.email","label":"Trigger - Record Created or Updated➛Incident Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
         <latest_snapshot/>
@@ -127,7 +124,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name>FDCollection</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name>sys_complex_object_f4f014150f023300ecf0cc52ff767eed</sys_update_name>
@@ -399,7 +396,6 @@
         <compiled_snapshot>d551542b97f02110e5a61c800153af0d</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Notification Options">597e43f497777d10e5a61c800153af8e</flow>
-        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -467,7 +463,6 @@
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Notification Options">597e43f497777d10e5a61c800153af8e</flow>
-        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -595,7 +590,6 @@
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Notification Options">597e43f497777d10e5a61c800153af8e</flow>
-        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>

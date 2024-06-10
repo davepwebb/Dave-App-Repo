@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>https://www.servicenowelite.com/blog/2015/5/18/header-message-for-servicenow</description>
+        <global>true</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>DW UI16 Banner Announcement</name>
+        <script><![CDATA[addLoadEvent(function(){
+try{
+var confidentialMessage = "<img src='warning.png' width='15' height='15' style='margin-right: 5px;' /><a target='gsft_main' href='kb_view.do?sysparm_article=KB0010001'id='confidentialMessage' style='margin-right: 20px; font-size: 100%; color: #100;text-decoration: underline;'>DO NOT STORE PASSWORDS IN SERVICENOW</a>\nThey are not allowed adasd ";
+var nav_header = document.getElementsByClassName("navbar-header")[0];
+nav_header.insert({before:confidentialMessage});
+}catch(e){}
+});]]></script>
+        <script_name/>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 16:02:23</sys_created_on>
+        <sys_id>dcf6459a47220210f3e2a3c9316d4331</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>DW UI16 Banner Announcement</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_ui_script_dcf6459a47220210f3e2a3c9316d4331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 22:06:05</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

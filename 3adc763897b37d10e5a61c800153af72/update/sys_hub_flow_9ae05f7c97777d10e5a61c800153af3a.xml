@@ -5,15 +5,12 @@
         <active>false</active>
         <annotation/>
         <attributes/>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>fba0542797f02110e5a61c800153af25</copied_from>
         <copied_from_name>Update Netcool via the Event Que</copied_from_name>
         <description>Using a custom action</description>
-        <flow_priority/>
-        <generation_source/>
         <internal_name>copy_of_update_netcool_via_the_event_queue</internal_name>
         <label_cache>[{"name":"Updated_1.current.work_notes","label":"Trigger - Record Updated➛Incident Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"incident","column_name":"work_notes"},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Incident Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"state","choices":[{"used":false,"image":"","label":"New","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"1","parameters":{"name":"incident"}},{"used":false,"image":"","label":"In Progress","reference":false,"rawLabel":"In Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"incident"}},{"used":false,"image":"","label":"On Hold","reference":false,"rawLabel":"On Hold","selected":false,"missing":false,"value":"3","parameters":{"name":"incident"}},{"used":false,"image":"","label":"Resolved","reference":false,"rawLabel":"Resolved","selected":false,"missing":false,"value":"6","parameters":{"name":"incident"}},{"used":false,"image":"","label":"Closed","reference":false,"rawLabel":"Closed","selected":false,"missing":false,"value":"7","parameters":{"name":"incident"}},{"used":false,"image":"","label":"Canceled","reference":false,"rawLabel":"Canceled","selected":false,"missing":false,"value":"8","parameters":{"name":"incident"}}]},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"a06e383c-6f7f-4702-94db-cf89e291fef0.__dont_treat_as_error__","label":"1 - Create an Event➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0beb53c5-1c65-4123-8e06-fcf4b4655043"}},{"name":"a06e383c-6f7f-4702-94db-cf89e291fef0.__action_status__","label":"1 - Create an Event➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"cf9c9c8a-8de1-4b4d-89f2-f71fe23d3b94"}}]</label_cache>
         <latest_snapshot/>
@@ -127,7 +124,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name>FDCollection</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name>sys_complex_object_f4f014150f023300ecf0cc52ff767eed</sys_update_name>
@@ -399,7 +396,6 @@
         <compiled_snapshot>d551542b97f02110e5a61c800153af0d</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Update Netcool via the Event Queue">9ae05f7c97777d10e5a61c800153af3a</flow>
-        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>

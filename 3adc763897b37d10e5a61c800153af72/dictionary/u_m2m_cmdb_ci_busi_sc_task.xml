@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d41ee8bd47120210f3e2a3c9316d434a" label="u_m2m_Business Applications_Catalog Tasks" max_length="40" name="u_m2m_cmdb_ci_busi_sc_task" type="collection">
+        <element default="0" label="Brokered Application Access" max_length="40" name="u_brokered_application_access" type="integer"/>
+        <element default="0" label="Brokered Infrastructure Access" max_length="40" name="u_brokered_infrastructure_access" type="integer"/>
+        <element attributes="encode_utf8=false" label="Business Applications" max_length="32" name="u_cmdb_ci_business_app" reference="cmdb_ci_business_app" type="reference"/>
+        <element attributes="encode_utf8=false" label="Catalog Tasks" max_length="32" name="u_sc_task" reference="sc_task" type="reference"/>
+        <index name="index">
+            <element name="u_cmdb_ci_business_app"/>
+        </index>
+        <index name="index2">
+            <element name="u_sc_task"/>
+        </index>
+    </element>
+</database>

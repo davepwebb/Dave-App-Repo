@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>cmdb_ci_business_app</from_table>
+        <m2m_from_field>u_cmdb_ci_business_app</m2m_from_field>
+        <m2m_from_label>Catalog Tasks</m2m_from_label>
+        <m2m_table>u_m2m_cmdb_ci_busi_sc_task</m2m_table>
+        <m2m_to_field>u_sc_task</m2m_to_field>
+        <m2m_to_label>Business Applications</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 14:39:35</sys_created_on>
+        <sys_id>60fd683d47520210f3e2a3c9316d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_m2m_cmdb_ci_busi_sc_task</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_m2m_60fd683d47520210f3e2a3c9316d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 14:39:35</sys_updated_on>
+        <to_table>sc_task</to_table>
+    </sys_m2m>
+</record_update>
