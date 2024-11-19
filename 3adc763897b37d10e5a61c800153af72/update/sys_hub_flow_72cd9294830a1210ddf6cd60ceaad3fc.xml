@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=12400000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>879a3dd083421210ddf6cd60ceaad30c</copied_from>
+        <copied_from_name>DW Re-instate RW Admin Access Po</copied_from_name>
+        <description>DW Re-instate RW Admin Access Post Clone - User Login</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>subflow_converter</internal_name>
+        <label_cache>[{"name":"a871f1fd-9527-46e1-ac19-0804782578be.Record.group.sys_id","label":"16 - Look Up Record➛Group Member Record➛Group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{"b6a74ef7-774d-417c-9405-69f107455191":["group"]}},{"name":"a871f1fd-9527-46e1-ac19-0804782578be.Record","label":"16 - Look Up Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"b6a74ef7-774d-417c-9405-69f107455191":["group"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.pdi_admin","label":"Flow Variables➛PDI Admin","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"a871f1fd-9527-46e1-ac19-0804782578be":["conditions"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5361165f-4da7-4fc1-8289-b36d9b531231"}},{"name":"b477dc90-e09d-43a3-aae1-66251bf85da5.Record.value","label":"2 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"10a9c8e6-2212-48e2-854d-2e294a90054c":["condition"]}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛Login Event Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"6283e646-06c2-4ece-8263-a7e326f9d9af":["conditions"]}},{"name":"6283e646-06c2-4ece-8263-a7e326f9d9af.status","label":"5 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"84b3fa34-7927-42c5-8c85-ec35cb718726":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fc4095bc-1e18-44d8-a0d5-dbe4b968b891.Record.value","label":"4 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"4e6e26a3-8960-4bb6-af1a-3bc5333b5d7c":["condition"],"85eaa9fa-4bd0-4a7e-8048-0346af35737a":["condition"]}},{"name":"flow_variable.dbunity1_admin","label":"Flow Variables➛dbunity1 Admin","type":"string","base_type":"string","usedInstances":{"c29aeb98-6f6b-4837-bdb0-3de73d21adff":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e66d6538-289b-4ff2-ad38-de2596370633"}},{"name":"c29aeb98-6f6b-4837-bdb0-3de73d21adff.Record.sys_id","label":"8 - Look Up Record➛Group Member Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_grmember","column_name":"sys_id","usedInstances":{"13b580a2-c492-4cc2-9b1f-16f7d7094035":["group"],"d6f8d10a-4306-4967-85ba-96fddb74bf51":["values"]}},{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛Login Event Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"13b580a2-c492-4cc2-9b1f-16f7d7094035":["user"],"d6f8d10a-4306-4967-85ba-96fddb74bf51":["values"],"b6a74ef7-774d-417c-9405-69f107455191":["values"],"1c2efbcd-642b-48a2-b7cd-f8c6b99668e4":["input1"]}},{"name":"6283e646-06c2-4ece-8263-a7e326f9d9af.Record","label":"5 - Look Up Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"fb533930-f360-4533-b73c-0871c58bdb78":["record"],"cdb9ab21-4770-4944-9011-8d2170c89900":["record"],"671fc8a5-688f-4470-9f73-31879668e372":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.dbunity2_admin","label":"Flow Variables➛dbunity2 Admin","type":"string","base_type":"string","usedInstances":{"b318f873-8e3f-44ac-b5b8-ae09f6ed75db":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0b09c207-8b06-4459-b84b-1789e92cb0ba"}},{"name":"b318f873-8e3f-44ac-b5b8-ae09f6ed75db.Record.group.sys_id","label":"12 - Look Up Record➛Group Member Record➛Group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{"d6f8d10a-4306-4967-85ba-96fddb74bf51":["group"],"b6a74ef7-774d-417c-9405-69f107455191":["values"]}}]</label_cache>
+        <master_snapshot>861dc310838e1210ddf6cd60ceaad3c0</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Subflow Converter</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>4b799e5483c61210ddf6cd60ceaad31f</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72cd9294830a1210ddf6cd60ceaad3fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Subflow Converter</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_hub_flow_72cd9294830a1210ddf6cd60ceaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sn_vsc_login_event">login_type=login_admin^user_name=testadmin<item display_value="Admin Login" endquery="false" field="login_type" goto="false" newquery="false" operator="=" or="false" value="login_admin"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="false" value="testadmin"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:33:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b799e5483c61210ddf6cd60ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:33:28</sys_updated_on>
+        <table>sn_vsc_login_event</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>72cd9294830a1210ddf6cd60ceaad3fc</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>de1d0710838e1210ddf6cd60ceaad31d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <trigger display_value="">4b799e5483c61210ddf6cd60ceaad31f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT INde1d0710838e1210ddf6cd60ceaad31d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT INb6cd9294830a1210ddf6cd60ceaad3fd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>72cd9294830a1210ddf6cd60ceaad3fc</id>
+        <name>Subflow Converter</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:17</sys_created_on>
+        <sys_id>b6cd9294830a1210ddf6cd60ceaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b6cd9294830a1210ddf6cd60ceaad3fd"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT IN36cdd294830a1210ddf6cd60ceaad334,3acdd294830a1210ddf6cd60ceaad338"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</model>
+        <model_id>72cd9294830a1210ddf6cd60ceaad3fc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>36cdd294830a1210ddf6cd60ceaad334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 19:13:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=36cdd294830a1210ddf6cd60ceaad334"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</model>
+        <model_id>72cd9294830a1210ddf6cd60ceaad3fc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>3acdd294830a1210ddf6cd60ceaad338</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 19:13:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3acdd294830a1210ddf6cd60ceaad338"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT IN0bcdd294830a1210ddf6cd60ceaad369"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:19</sys_created_on>
+        <sys_id>0bcdd294830a1210ddf6cd60ceaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:19</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLetk0UDpBvASduHbFagpKFNlKZciVLWu8i/d6iLLUuU79lkXwKYQ3HOHJ65MI/fTU584Oal+UB8DuaZyYSEWBD+sJgDLku17AkyU7YZESGRUbwwL2WcwpkZxSHE5qV9ZmaEp3C/SG5C/Ai35l+Un5ulGX8nwsuSwOPRhAkPMhASjSFL5pws/i733CqjcV0agynjYQzCvHx8OjPnJMaDpXL6vWFiynNAAzJ0wApc23Ucy3IuerZ/7vq2E7oELAsPbAbcQCo1ca/ChK8SRAjoihKegIaSGEh4J/hiuWOKjBaczMjXhH3D0y8stY8CYg+gsAXTiAVwN5csEsVKAagwRjydiU8FUEUYUJJyWRGGK2kCXghzhU15K13T+2n0PK4cfWQiD6M08iggfPmLSBkzP5WQKGYp48ixV5CQRGmcwxxfj+7GV94/Hx5Gf1yPvfH1/cP4ZvRwfWW+5PF4/6XqxAJhicUrwnlZ3vJHBlzdFCKOcWMSxGwuPwSSZVCCeTlbqXIUiZDlnLSUGVSmZF2ZZUDVnVlWpziD2uGVQAtlKhF8Ti3LDYvfJJwx8UVBziVRmJArmRv2Vun5OSEhkA6V+rSm0joBGthSw0U98k16LVd2EWzPsl5bskX2HKzYWRQCv1odZ6JxMsH7YmKeSkXLMxEy8WSElxl6NcLUVsS0TcJFbG0db9dwnAo8wlteRVvJOZFLRm9ZggE8YhZWbOVHop3elkeOU2FEeGf4xwjSGMmSRlXA6M2MTEqO6T1wCGTt/ulfSf3XnyxJmJjUUC+d5qy0fC7doY6MKqTCd3Kk86cD07jNb9bgrdFg9s5X26bUB+pYA5WttuX61LYGVp/Q0LWswKnlaxtMJ0rZuP1XyduOrE1ygfEd5NTkskRp1RW+kzSydV1V0aprL4vD6DTQ7BNBcxS0RpFz96pyS/0Vy1frMtwU2on7OQkzgl+EuxY7tWGHqkZ59OwxXW/eVtF8Evw7iaNUhM0So840cP5b7TB+Kfn79YTVjUYxbAawvuON6tqK4UqjRCxOUNFcavtD6IGFhczFGub3h0M/IA6lg/MBOHajoq1gaLG9r0q2RUGZToJdVU0rhkynoT3q2REAW7Vtb4DHV7VSgdqaVth+jur1PAXh5TM9V/WpVcQmnIVQ2Q7O4JaXbJWzx2YxvRgGfXswCAb4hsAspj3wid1z+mQ4OHcv+o0sbkHZBFNqSPghL4tkkXjl4/B9PYpfU4YJSKlaxv6dVOBQmX9DCie1bqa4N/IiEcXGp0j8drPaZ9wDNqn8DXmqlroLCjwsNl4Xhh/Jaauno+vfcX3NtZoFO1h5y6dMQw/ZelhHP2Wgd9EfUldfMuhQVzJWYLphvp8RYEfVZ535o5sFdhVxps2FzuZ9gCwbeqh39Q1jx6lIsU9OivN6pLhHjzpV0nW+3w4B+xO1pXwgOKY3KZ/gRbRekK8iAw0GOjEYNcr/0+Fz3F8YcgpIKceZFh0ayvuxlbjeGdpQlgr+sUCKKbnVoXDZKCefN20+jVs/7csTwgHp992OmXXYfHnqAG3B+35a0d5Kz3SJs7Ef7Xdu80xtR6rJcP3qd+w1J41a33COi1rbcrZFfXwz2fRu1qB4p23i6X9eF68ANB4AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT IN4b1e7614830e1210ddf6cd60ceaad380"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <subflow display_value="DW Re-instate RW Admin">849e1e98830a1210ddf6cd60ceaad322</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+2Wb2vbMBDGv8rwqw0iY8myY+fdWOkobCusa9+UYmTpnAgc27XltFnId98p/7Z4aZq2YWXQd9FJp7vnol+eXM8crZyBQ70YKMRR5HuCMuoplYVShZ4EIZQf+k7PKcQY8KQuqtZQXE9E3trAbPapBmFAJdSVbV1DYdy2gdq1CfM5nlS6qXIxvTo4QY50rjDuDK5vek4latwwUDuDWWfLTCtIcpFCjvdemFoXQ0w/VNE6EfOGQ6iThcK/hdoiuG7W15e1sr3QngP3BgoFWC4TeQM9ZywKJUxZT52BqVsMoFB1XuTTzYmRLgxe5tiz943+iTdHnufZkxmgLgnLXTkqtYTzyuiyWEaMSPP1Zpm34+Lbsk87YMhEm5v1gDGC80wUVLY7W29VPLsYlXff14VOdbEQstrMSynyzUoYlJu2Bho79Vb/6AxhGfnSHT3kMMaKyVhUFUaSqi4nelEFmx67wxwXbpaXd9hdo4eFK6RV6OLUhHuK8ZNF+ErU2sr9itdgsi13WejbFs7sVwuCMaUkI34UZoRzxkjsRT4J4oyrgEc0iFJnvhhpcttaUcshrcaRLCeKBxpZ68p8xBYmsFI+762IUHvfT5p2HgrbImKhcLIS4aq0LbSZ0kSosS52I/FoxjGYOEDTOnGrn2S7nx3SH2CEvTHySowEaRQzL+yTfpQJZIQKkoapT5gnfRGGsR/AyxmhfN97kqzzUPxDXKOZNolWT/KNP1KeScm0eXd28u7958uzkw8bA3lcXNdAlo3sUL3Cw97/Gw7/WHD47H9BYzWADhid6f8TPkSUeYryiMQhCwjPKMVPMiMB4NfBZSAhyl7MRyz3PSEVdF4Kf9xD2JM9hB3ZQw7QtNdD2E4P4Q97CH/zkFfykFBRCPs0JNTre4T7wEnqxwEaCQjOBUAcihczEu79T6K6v6bBHkYqpQ/HY/vwMcg4QMluMjat7ND6ABTBGxSvBEXfSwPGGRCaygiNQ8VE9NOIBEgKEywCH54Pxc0vD1KjSJAPAAA=</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 19:13:29</sys_created_on>
+        <sys_id>4b1e7614830e1210ddf6cd60ceaad380</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 19:51:27</sys_updated_on>
+        <ui_id>1c2efbcd-642b-48a2-b7cd-f8c6b99668e4</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT INc3cdd294830a1210ddf6cd60ceaad343"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5219029083421210ddf6cd60ceaad317</block>
+        <comment>Different Admin Groups between dbunity(1) and dbunity2 instances, and PDI's</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</flow>
+        <flow_variables_assigned>dbunity1_admin,dbunity2_admin,pdi_admin</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>c3cdd294830a1210ddf6cd60ceaad343</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:57</sys_updated_on>
+        <ui_id>d7362e96-f5b7-4921-a116-6cc8d26dac72</ui_id>
+        <values>H4sIAAAAAAAA/+2YTU/bQBCG/0rlcxytP+LY3KICUqQSKqDpoULWfozJquu1sdcJKeK/MxvHgExJpYoDQr5l31nvOzP7yBn53ikaUzamvipmdS1vtHP063rkSG01/H3vaJqDc+QI1mhptl5KRS61M3LWVDU2cHlysZx/PVmc/0xnx2fzxSXGhKxLRbfLA1v4SipRwd6vpBXaGKico/teyGxLSBVloOxJppL6Bh+XAlcB5UL4SRgHhHq+R4TIIi4iwoFSERCG+7oHu/S/zPbpv1WWtUO97oyKStisyMiBOwNaABpnVNUwcnKqBTVFtX1SKqDiXKtnYSW1wdMcu/muln/w6JgQYndmgCVyaKN8VUgO56WRhW4VQ5nqgoVqcr1oE7bdhYw2ynTdRaWpIRVQ2vSs3948u1wVm4vO6FTqXSX7oCo4VU8rarBe1hio7QU08qrXhVb51r8FUJCjY5rTskQlLatiLXcumHQ+vlG4GGeq2GB2Fq4x5bbCMbaNjk9RP97JS1pJW+4ZHoMPW7sfWt42MLe3DFEkokkQu36cMDfMMt/F241dAf4kiYIpiYLAedi1NL1tbFFtk/btSNuO4oaaV7I0M0xhDfvKH0Z9wP3XgEO1xsvRxeYJnj7fr3e8C97+QbzD13j7b+DtD3h/WLwJIwn3ydSNGYncMJwkLotD5nrTOIHE54ww+g54l0K+Rfbin2Qv3pnsKRwkG16Q/f143of6ZSkDzx+N50kQeV40ydxQ0Cm+rrnnxvjmdlkQiYRNAs8PvP/m+drC27q308kOpwN/58OUMmD/KaaUv4M+TCsD5p9qWulhPkwtA9efYmoRwGWNWV3ZFObd1xUb2CIfkr+UNkX129bzrD08AiH04OunEQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT IN32cdd294830a1210ddf6cd60ceaad304,3acdd294830a1210ddf6cd60ceaad30b,7ecdd294830a1210ddf6cd60ceaad30e"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b09c207-8b06-4459-b84b-1789e92cb0ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dbunity2_admin</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>dbunity2 Admin</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</model>
+        <model_id>72cd9294830a1210ddf6cd60ceaad3fc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>32cdd294830a1210ddf6cd60ceaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e66d6538-289b-4ff2-ad38-de2596370633</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dbunity1_admin</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>dbunity1 Admin</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</model>
+        <model_id>72cd9294830a1210ddf6cd60ceaad3fc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>3acdd294830a1210ddf6cd60ceaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5361165f-4da7-4fc1-8289-b36d9b531231</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pdi_admin</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>PDI Admin</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</model>
+        <model_id>72cd9294830a1210ddf6cd60ceaad3fc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>7ecdd294830a1210ddf6cd60ceaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT IN3acdd294830a1210ddf6cd60ceaad337,3ecdd294830a1210ddf6cd60ceaad33a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>3acdd294830a1210ddf6cd60ceaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72cd9294830a1210ddf6cd60ceaad3fc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:52:18</sys_created_on>
+        <sys_id>3ecdd294830a1210ddf6cd60ceaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 16:52:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_72cd9294830a1210ddf6cd60ceaad3fc"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8089000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>879a3dd083421210ddf6cd60ceaad30c</copied_from>
+        <copied_from_name/>
+        <description>DW Re-instate RW Admin Access Post Clone - User Login</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>subflow_converter</internal_name>
+        <label_cache>[{"name":"a871f1fd-9527-46e1-ac19-0804782578be.Record.group.sys_id","label":"16 - Look Up Record➛Group Member Record➛Group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{"b6a74ef7-774d-417c-9405-69f107455191":["group"]}},{"name":"a871f1fd-9527-46e1-ac19-0804782578be.Record","label":"16 - Look Up Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"b6a74ef7-774d-417c-9405-69f107455191":["group"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.pdi_admin","label":"Flow Variables➛PDI Admin","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"a871f1fd-9527-46e1-ac19-0804782578be":["conditions"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5361165f-4da7-4fc1-8289-b36d9b531231"}},{"name":"b477dc90-e09d-43a3-aae1-66251bf85da5.Record.value","label":"2 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"10a9c8e6-2212-48e2-854d-2e294a90054c":["condition"]}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛Login Event Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"6283e646-06c2-4ece-8263-a7e326f9d9af":["conditions"]}},{"name":"6283e646-06c2-4ece-8263-a7e326f9d9af.status","label":"5 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"84b3fa34-7927-42c5-8c85-ec35cb718726":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fc4095bc-1e18-44d8-a0d5-dbe4b968b891.Record.value","label":"4 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"4e6e26a3-8960-4bb6-af1a-3bc5333b5d7c":["condition"],"85eaa9fa-4bd0-4a7e-8048-0346af35737a":["condition"]}},{"name":"flow_variable.dbunity1_admin","label":"Flow Variables➛dbunity1 Admin","type":"string","base_type":"string","usedInstances":{"c29aeb98-6f6b-4837-bdb0-3de73d21adff":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e66d6538-289b-4ff2-ad38-de2596370633"}},{"name":"c29aeb98-6f6b-4837-bdb0-3de73d21adff.Record.sys_id","label":"8 - Look Up Record➛Group Member Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_grmember","column_name":"sys_id","usedInstances":{"13b580a2-c492-4cc2-9b1f-16f7d7094035":["group"],"d6f8d10a-4306-4967-85ba-96fddb74bf51":["values"]}},{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛Login Event Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"13b580a2-c492-4cc2-9b1f-16f7d7094035":["user"],"d6f8d10a-4306-4967-85ba-96fddb74bf51":["values"],"b6a74ef7-774d-417c-9405-69f107455191":["values"],"1c2efbcd-642b-48a2-b7cd-f8c6b99668e4":["input1"]}},{"name":"6283e646-06c2-4ece-8263-a7e326f9d9af.Record","label":"5 - Look Up Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"fb533930-f360-4533-b73c-0871c58bdb78":["record"],"cdb9ab21-4770-4944-9011-8d2170c89900":["record"],"671fc8a5-688f-4470-9f73-31879668e372":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.dbunity2_admin","label":"Flow Variables➛dbunity2 Admin","type":"string","base_type":"string","usedInstances":{"b318f873-8e3f-44ac-b5b8-ae09f6ed75db":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0b09c207-8b06-4459-b84b-1789e92cb0ba"}},{"name":"b318f873-8e3f-44ac-b5b8-ae09f6ed75db.Record.group.sys_id","label":"12 - Look Up Record➛Group Member Record➛Group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{"d6f8d10a-4306-4967-85ba-96fddb74bf51":["group"],"b6a74ef7-774d-417c-9405-69f107455191":["values"]}}]</label_cache>
+        <master>true</master>
+        <name>Subflow Converter</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Subflow Converter">72cd9294830a1210ddf6cd60ceaad3fc</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>861dc310838e1210ddf6cd60ceaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:57</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN0a1dc310838e1210ddf6cd60ceaad3c1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>861dc310838e1210ddf6cd60ceaad3c0</id>
+        <name>Subflow Converter</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:57</sys_created_on>
+        <sys_id>0a1dc310838e1210ddf6cd60ceaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0a1dc310838e1210ddf6cd60ceaad3c1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN861dc310838e1210ddf6cd60ceaad3e6,ca1dc310838e1210ddf6cd60ceaad3c2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</model>
+        <model_id>861dc310838e1210ddf6cd60ceaad3c0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>861dc310838e1210ddf6cd60ceaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=861dc310838e1210ddf6cd60ceaad3e6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</model>
+        <model_id>861dc310838e1210ddf6cd60ceaad3c0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:57</sys_created_on>
+        <sys_id>ca1dc310838e1210ddf6cd60ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ca1dc310838e1210ddf6cd60ceaad3c2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN9e1d0710838e1210ddf6cd60ceaad311"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>9e1d0710838e1210ddf6cd60ceaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLetk0UDpBvASduHbFagpKFNlKZciVLWu8i/d6iLLUuU79lkXwKYQ3HOHJ65MI/fTU584Oal+UB8DuaZyYSEWBD+sJgDLku17AkyU7YZESGRUbwwL2WcwpkZxSHE5qV9ZmaEp3C/SG5C/Ai35l+Un5ulGX8nwsuSwOPRhAkPMhASjSFL5pws/i733CqjcV0agynjYQzCvHx8OjPnJMaDpXL6vWFiynNAAzJ0wApc23Ucy3IuerZ/7vq2E7oELAsPbAbcQCo1ca/ChK8SRAjoihKegIaSGEh4J/hiuWOKjBaczMjXhH3D0y8stY8CYg+gsAXTiAVwN5csEsVKAagwRjydiU8FUEUYUJJyWRGGK2kCXghzhU15K13T+2n0PK4cfWQiD6M08iggfPmLSBkzP5WQKGYp48ixV5CQRGmcwxxfj+7GV94/Hx5Gf1yPvfH1/cP4ZvRwfWW+5PF4/6XqxAJhicUrwnlZ3vJHBlzdFCKOcWMSxGwuPwSSZVCCeTlbqXIUiZDlnLSUGVSmZF2ZZUDVnVlWpziD2uGVQAtlKhF8Ti3LDYvfJJwx8UVBziVRmJArmRv2Vun5OSEhkA6V+rSm0joBGthSw0U98k16LVd2EWzPsl5bskX2HKzYWRQCv1odZ6JxMsH7YmKeSkXLMxEy8WSElxl6NcLUVsS0TcJFbG0db9dwnAo8wlteRVvJOZFLRm9ZggE8YhZWbOVHop3elkeOU2FEeGf4xwjSGMmSRlXA6M2MTEqO6T1wCGTt/ulfSf3XnyxJmJjUUC+d5qy0fC7doY6MKqTCd3Kk86cD07jNb9bgrdFg9s5X26bUB+pYA5WttuX61LYGVp/Q0LWswKnlaxtMJ0rZuP1XyduOrE1ygfEd5NTkskRp1RW+kzSydV1V0aprL4vD6DTQ7BNBcxS0RpFz96pyS/0Vy1frMtwU2on7OQkzgl+EuxY7tWGHqkZ59OwxXW/eVtF8Evw7iaNUhM0So840cP5b7TB+Kfn79YTVjUYxbAawvuON6tqK4UqjRCxOUNFcavtD6IGFhczFGub3h0M/IA6lg/MBOHajoq1gaLG9r0q2RUGZToJdVU0rhkynoT3q2REAW7Vtb4DHV7VSgdqaVth+jur1PAXh5TM9V/WpVcQmnIVQ2Q7O4JaXbJWzx2YxvRgGfXswCAb4hsAspj3wid1z+mQ4OHcv+o0sbkHZBFNqSPghL4tkkXjl4/B9PYpfU4YJSKlaxv6dVOBQmX9DCie1bqa4N/IiEcXGp0j8drPaZ9wDNqn8DXmqlroLCjwsNl4Xhh/Jaauno+vfcX3NtZoFO1h5y6dMQw/ZelhHP2Wgd9EfUldfMuhQVzJWYLphvp8RYEfVZ535o5sFdhVxps2FzuZ9gCwbeqh39Q1jx6lIsU9OivN6pLhHjzpV0nW+3w4B+xO1pXwgOKY3KZ/gRbRekK8iAw0GOjEYNcr/0+Fz3F8YcgpIKceZFh0ayvuxlbjeGdpQlgr+sUCKKbnVoXDZKCefN20+jVs/7csTwgHp992OmXXYfHnqAG3B+35a0d5Kz3SJs7Ef7Xdu80xtR6rJcP3qd+w1J41a33COi1rbcrZFfXwz2fRu1qB4p23i6X9eF68ANB4AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN9e1d0710838e1210ddf6cd60ceaad312"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <subflow display_value="DW Re-instate RW Admin">849e1e98830a1210ddf6cd60ceaad322</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+1WTU/bQBD9K5VPrRRb3vVHbG4VERVSW6TycUHIGu+Ow0qObew1kEb8987GJoCJQlJBD5RbdnbG8+btPL2cLywlrT2LuTEyjKPIc4Fx5kqZhUKGrkAA6YWeNbIKmCFlqqJqNaPzNeStCSwW+zWCRpkwR7R1jYV22gZrxxTc3VGmVE2Vw/xs6wJxqXJJcWvv/GJkVVDThcba2lsMrrbFnkOKOaXqWk2nWCfLWZ6PpOeVOTeUVkz78/e+9Pg+WNbSQGEjC281FhIJQwZ5gyNrBoUEXdZza0/XLQVoTnlU5PNVxqUqNH3MMrm3jfpN7SLXdU1mhjSWwO52dTyBNMdJR2B3lU1AA6FphW7rPl1clkpg05EiMYM21/uPY13CUaVVWXQl2ny4ry7zdlb87MiwVh+4fy+K0PMkEiszrcHfD5MdX5Y3v+6RHqhiSUx/mZcC8tUJNNGXttrgWVitOhkw3UWecY05zqhjMoOqokhS1eW1WnYh0DNnmtPByfLyhtA1alo4IMyEDr0COAcUnyzDZ1ArM+4P+gwVm3anhbpq8dDsDwLnUgpue1GY2b7PuR27kWcHcebLwI9YEKXW3chq5s1+Dk3zQBS9UnLVmjE72nqCko5jUyJqVemvBOoaey7uRr3k5Ma1TdPBfvInklvOfN2P5ci0LZSeswTkTBXrNfdixW6i2wL9veiedE6edl4z5C4i5B8ifCciDNIo5m44tsdRBiRCBnYapp7NXeFBGMZegG8hQuZvWmPBB/vpbeN7BDFRcifne1Syo/e9jH/ofV2vNYP1wvt2ejgZym7efDqcfPpsrr48qM97LfV5/H/VXk/2QHkDuv+JACHKXMn8yI5DHth+xhj9EpkdID2vLwKBUfYGAozFpgWWwWBP/ZddkO/sgvyvXXAL9BtdkK91QX9HF/Q/XPCduGAoGYZjFtrMHbu276Fvp14ckBUi+D4gxiG8gQjDjX/m5NAsgg0irKTaXn9Pk3eT3haY10tv1XTNVLuoLvhQ3TtR3dhNA+5ztFkqIrI+GdswTiM7ICly4BF6+Jqqu/gDqMJu53URAAA=</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>9e1d0710838e1210ddf6cd60ceaad312</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <ui_id>1c2efbcd-642b-48a2-b7cd-f8c6b99668e4</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN161d0710838e1210ddf6cd60ceaad311"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5219029083421210ddf6cd60ceaad317</block>
+        <comment>Different Admin Groups between dbunity(1) and dbunity2 instances, and PDI's</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</flow>
+        <flow_variables_assigned>dbunity1_admin,dbunity2_admin,pdi_admin</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>161d0710838e1210ddf6cd60ceaad311</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <ui_id>d7362e96-f5b7-4921-a116-6cc8d26dac72</ui_id>
+        <values>H4sIAAAAAAAA/+1YXW/aMBT9K5OfCXISCEnfUGklpJVOpesepiryV4o1x0ljB8ZQ//uuSaAIRKdN28uaN/tc2/fcYx/lKhtU1LasrbkvxsbIJ40uvj72kNQOg/EGSY4uEOohTXIBI05rLe3aTwnPpQZ8SVTtAvOru4fp5dXs9ks6ntxMZ3OIcWlKRdYPbyxhC6l4Jdq8JakgjRUVutgchbY8QsI4D5JBHGLiBz7mPIsYjzAThPAQUzhQESrUAdEP45bouQLsunS4sZXUT+38Y3vIfAcWFXekcA+J71ZoLoBNRpQRPZQTzYktqvUeqQTht1q9AgupbaNiTr4b+QPyxRhjtzITUCETTXQ/vSdUiUmjXhPKJsQSoFMzW1ftcrYoJBOm0YeLjNTKXh5izYLb0spCN1usO7jdXag617NGFbQ/YHdZgNRGpFyUrlzHvy0mmy+K1d2O6bXUW2XaoCoYUfsZsaAfra3js0G1vD+SukFOxBZK5JAxzUlZApKWVbGU2yxAOu8/KZj0M1WsgJ17s33CXIV9uAbSvwZ8soUfSCVduTdwDGx26T5r+VyLqXtKIop4NAxjL4gT6g2yLPDgCcUeF8EwicIRjsIQvfSQWZtLRYx5FQpuKX2uXZmNbK1AaaOx28IqWdoxkFqKVouX3jknBadOEtUSrk0Xq/3bPTbS6Yrf9FHwpo8Gpz4Kzvgo6Hz0vn2EKU5YgEdeTHHkDQbDxKPxgHr+KE5EEjCKKfmnPiq5PGeh2S8tNPtjC43EmxYSBxb6NJkeu+eQdGecd2mcYRj5fjTMvAEnI/gAMd+L4Vvk0TDiCR2GfhD6f9E4j84dDZ+uset89f/6qmvsusau81HX2HWNXWecd9LYccGkAZ7by53u/t25wBqepWSH0KqovrkKX7GXn4lG0WIFFAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN121d0710838e1210ddf6cd60ceaad308,161d0710838e1210ddf6cd60ceaad30b,ca1d0710838e1210ddf6cd60ceaad303"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e66d6538-289b-4ff2-ad38-de2596370633</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dbunity1_admin</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>dbunity1 Admin</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</model>
+        <model_id>861dc310838e1210ddf6cd60ceaad3c0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>121d0710838e1210ddf6cd60ceaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5361165f-4da7-4fc1-8289-b36d9b531231</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pdi_admin</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>PDI Admin</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</model>
+        <model_id>861dc310838e1210ddf6cd60ceaad3c0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>161d0710838e1210ddf6cd60ceaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b09c207-8b06-4459-b84b-1789e92cb0ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dbunity2_admin</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>dbunity2 Admin</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Subflow Converter">861dc310838e1210ddf6cd60ceaad3c0</model>
+        <model_id>861dc310838e1210ddf6cd60ceaad3c0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>ca1d0710838e1210ddf6cd60ceaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_861dc310838e1210ddf6cd60ceaad3c0^sys_idNOT IN0e1dc310838e1210ddf6cd60ceaad3e3,4e1dc310838e1210ddf6cd60ceaad3ea"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>0e1dc310838e1210ddf6cd60ceaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_861dc310838e1210ddf6cd60ceaad3c0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_id>4e1dc310838e1210ddf6cd60ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_861dc310838e1210ddf6cd60ceaad3c0"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>72cd9294830a1210ddf6cd60ceaad3fc</sys_id>
+        <latest_snapshot>861dc310838e1210ddf6cd60ceaad3c0</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=72cd9294830a1210ddf6cd60ceaad3fc^sys_idNOT IN1a1d0710838e1210ddf6cd60ceaad31e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>72cd9294830a1210ddf6cd60ceaad3fc</plan_id>
+        <snapshot>861dc310838e1210ddf6cd60ceaad3c0</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:18:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a1d0710838e1210ddf6cd60ceaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:18:58</sys_updated_on>
+        <trigger display_value="">4b799e5483c61210ddf6cd60ceaad31f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=72cd9294830a1210ddf6cd60ceaad3fc"/>
+</record_update>

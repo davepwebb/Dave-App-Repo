@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition">
+    <catalog_dl_definition action="DELETE">
+        <active>true</active>
+        <applies_to>item</applies_to>
+        <catalog_item display_value="Break Glass Request">a8a8d27983bd1210ddf6cd60ceaad39f</catalog_item>
+        <matcher_table>sys_user</matcher_table>
+        <name>Get User Name</name>
+        <run_on_form_change>true</run_on_form_change>
+        <run_on_insert>true</run_on_insert>
+        <run_on_update>false</run_on_update>
+        <source_table/>
+        <sys_class_name>catalog_dl_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 20:48:25</sys_created_on>
+        <sys_id>8f0a8204830a1210ddf6cd60ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get User Name</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>catalog_dl_definition_8f0a8204830a1210ddf6cd60ceaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 20:48:25</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</application>
+        <file_path/>
+        <instance_id>c4fa715adb363dd002d91729139619d1</instance_id>
+        <instance_name>dev230754</instance_name>
+        <name>catalog_dl_definition_8f0a8204830a1210ddf6cd60ceaad376</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition"><catalog_dl_definition action="INSERT_OR_UPDATE"><active>true</active><applies_to>item</applies_to><catalog_item display_value="Break Glass Request">a8a8d27983bd1210ddf6cd60ceaad39f</catalog_item><matcher_table>sys_user</matcher_table><name>Get User Name</name><run_on_form_change>true</run_on_form_change><run_on_insert>true</run_on_insert><run_on_update>false</run_on_update><source_table/><sys_class_name>catalog_dl_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-18 20:48:25</sys_created_on><sys_id>8f0a8204830a1210ddf6cd60ceaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get User Name</sys_name><sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package><sys_policy/><sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope><sys_update_name>catalog_dl_definition_8f0a8204830a1210ddf6cd60ceaad376</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-18 20:48:25</sys_updated_on><variable_set/></catalog_dl_definition></record_update>]]></payload>
+        <payload_hash>2055428031</payload_hash>
+        <record_name>Get User Name</record_name>
+        <reverted_from/>
+        <source>256286a583ad5210ddf6cd60ceaad366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 20:48:25</sys_created_on>
+        <sys_id>b73a4204830a1210ddf6cd60ceaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1934108a3560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 20:48:25</sys_updated_on>
+        <type>Catalog Data Lookup Definitions</type>
+        <update_guid>bb3a4204e80a12108e4ef2790da3e832</update_guid>
+        <update_guid_history>bb3a4204e80a12108e4ef2790da3e832:2055428031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Get User Name">7593da8c830a1210ddf6cd60ceaad3ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 21:29:14</sys_created_on>
+        <sys_db_object display_value="" name="catalog_dl_definition">catalog_dl_definition</sys_db_object>
+        <sys_id>1b89bf9d103d4b1cbad24ed9e36b7524</sys_id>
+        <sys_metadata>8f0a8204830a1210ddf6cd60ceaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get User Name</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_scope_delete display_value="">62a92bb5eeed41da996f5d6f5be2cd51</sys_scope_delete>
+        <sys_update_name>catalog_dl_definition_8f0a8204830a1210ddf6cd60ceaad376</sys_update_name>
+        <sys_update_version display_value="catalog_dl_definition_8f0a8204830a1210ddf6cd60ceaad376">b73a4204830a1210ddf6cd60ceaad333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 21:29:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

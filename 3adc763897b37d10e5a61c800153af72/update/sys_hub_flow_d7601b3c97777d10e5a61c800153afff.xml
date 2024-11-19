@@ -511,7 +511,7 @@
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:18:04</sys_updated_on>
-        <trigger_definition display_value="">77ad0b76c71000101666868cb8c2601d</trigger_definition>
+        <trigger_definition display_value="REST API - Asynchronous">77ad0b76c71000101666868cb8c2601d</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>rest_async</trigger_type>
@@ -529,7 +529,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:18:04</sys_updated_on>
         <value>0</value>
-        <variable display_value="">2e397f5b0ffe1010b303f140ff767e36</variable>
+        <variable display_value="Requires Authentication">2e397f5b0ffe1010b303f140ff767e36</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -543,7 +543,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:18:04</sys_updated_on>
         <value>get</value>
-        <variable display_value="">6b6fcc4bc71000101666868cb8c260a1</variable>
+        <variable display_value="HTTP Method">6b6fcc4bc71000101666868cb8c260a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -557,8 +557,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:18:04</sys_updated_on>
         <value>/api/x_520111_dave_spok/amr_in_flow</value>
-        <variable display_value="">3af53c10c7531010bd2f868cb8c2608b</variable>
+        <variable display_value="Base Path">3af53c10c7531010bd2f868cb8c2608b</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_77ad0b76c71000101666868cb8c2601d^id=73605b3c97777d10e5a61c800153af8c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_77ad0b76c71000101666868cb8c2601d^id=73605b3c97777d10e5a61c800153af8c"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=d7601b3c97777d10e5a61c800153afff^sys_idNOT IN7b605b3c97777d10e5a61c800153af8b,a7605b3c97777d10e5a61c800153af69,a7605b3c97777d10e5a61c800153af7d,e3605b3c97777d10e5a61c800153af74"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>

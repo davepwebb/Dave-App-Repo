@@ -99,7 +99,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="">8e4730d2b7212300cbfe8c78ee11a99e</step_type>
+        <step_type display_value="JDBC">8e4730d2b7212300cbfe8c78ee11a99e</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-15 17:03:55</sys_created_on>
         <sys_id>183d0bf097777d10e5a61c800153afae</sys_id>
@@ -121,7 +121,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <value>e8ddcb7573331010cbfec9d234f6a7fd</value>
-        <variable display_value="">898ef046731033003c96033ee2f6a7a3</variable>
+        <variable display_value="Retry Policy">898ef046731033003c96033ee2f6a7a3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -135,7 +135,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <value>select * from business_locations</value>
-        <variable display_value="">9d664d1ab7212300cbfe8c78ee11a960</variable>
+        <variable display_value="SQL Statement">9d664d1ab7212300cbfe8c78ee11a960</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -149,7 +149,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">55aae8e2735223000a4394596bf6a7b9</variable>
+        <variable display_value="MID Application">55aae8e2735223000a4394596bf6a7b9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -163,7 +163,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <value>1eaec4a0d7012200171f42285e610340</value>
-        <variable display_value="">1e03b426731223000a4394596bf6a793</variable>
+        <variable display_value="Capabilities">1e03b426731223000a4394596bf6a793</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -177,9 +177,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:03:55</sys_updated_on>
         <value>df573cd39763b110e5a61c800153af83</value>
-        <variable display_value="">6ef7b4d2b7212300cbfe8c78ee11a9cb</variable>
+        <variable display_value="Connection Alias">6ef7b4d2b7212300cbfe8c78ee11a9cb</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_183d0bf097777d10e5a61c800153afae^id=183d0bf097777d10e5a61c800153afae"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e^id=183d0bf097777d10e5a61c800153afae"/>
     <sys_translated_text action="delete_multiple" query="documentkey=183d0bf097777d10e5a61c800153afae"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=183d0bf097777d10e5a61c800153afae"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=183d0bf097777d10e5a61c800153afae^sys_idNOT IN143d0bf097777d10e5a61c800153afce"/>
