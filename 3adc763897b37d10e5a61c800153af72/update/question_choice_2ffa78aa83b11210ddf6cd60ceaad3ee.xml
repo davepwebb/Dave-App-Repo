@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="What would you like to run ?">88b9342a83b11210ddf6cd60ceaad3a2</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 23:11:16</sys_created_on>
+        <sys_id>2ffa78aa83b11210ddf6cd60ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run something for Richard</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>question_choice_2ffa78aa83b11210ddf6cd60ceaad3ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 23:11:16</sys_updated_on>
+        <text>Run something for Richard</text>
+        <value>run_something_for_richard</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=2ffa78aa83b11210ddf6cd60ceaad3ee"/>
+</record_update>
