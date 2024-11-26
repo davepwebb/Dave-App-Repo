@@ -2,11 +2,13 @@
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
+        <additional_review>false</additional_review>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Infrastructure">803e95e1c3732100fca206e939ba8f2a</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
@@ -109,6 +111,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>icon</file_name>
         <hash>2eb1ada160bd19a1bb064baec50cadefed0f7fed7a2d295f0f6d7c1c11213487</hash>
         <image_height>1024</image_height>
@@ -148,6 +151,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>picture</file_name>
         <hash>2eb1ada160bd19a1bb064baec50cadefed0f7fed7a2d295f0f6d7c1c11213487</hash>
         <image_height>1024</image_height>

@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>96ec10c5838a961071719370ceaad3a9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>RF: Run Scheduled Job</sys_name>
         <sys_overrides/>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_96ec10c5838a961071719370ceaad3a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
+        <sys_updated_on>2024-11-22 22:06:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -175,30 +175,6 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d082248983ca961071719370ceaad369"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d082248983ca961071719370ceaad369</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-21 15:49:06</sys_created_on>
-        <sys_id>6882248983ca961071719370ceaad38a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-21 15:49:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d082248983ca961071719370ceaad369</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-21 15:49:06</sys_created_on>
-        <sys_id>2082248983ca961071719370ceaad38b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-21 15:49:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script_job</field>
         <id>d082248983ca961071719370ceaad369</id>
@@ -397,11 +373,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 15:49:05</sys_created_on>
         <sys_id>9482248983ca961071719370ceaad383</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>passfail</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d082248983ca961071719370ceaad369_passfail_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 15:49:05</sys_updated_on>
         <url/>
@@ -780,11 +756,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 15:40:31</sys_created_on>
         <sys_id>f280a04583ca961071719370ceaad31b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>job</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_96ec10c5838a961071719370ceaad3a9_job_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 15:40:31</sys_updated_on>
         <url/>
@@ -805,11 +781,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 15:32:45</sys_created_on>
         <sys_id>05ce180183ca961071719370ceaad3b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_96ec10c5838a961071719370ceaad3a9___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 15:32:45</sys_updated_on>
         <url/>
@@ -828,11 +804,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 15:49:06</sys_created_on>
         <sys_id>6c82248983ca961071719370ceaad39f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>finalPassFail</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_96ec10c5838a961071719370ceaad3a9_finalpassfail_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 15:49:06</sys_updated_on>
         <url/>
@@ -851,11 +827,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 15:32:45</sys_created_on>
         <sys_id>cdce180183ca961071719370ceaad39f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_96ec10c5838a961071719370ceaad3a9___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 15:32:45</sys_updated_on>
         <url/>
@@ -1050,30 +1026,6 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=51ea688d830e961071719370ceaad355"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>51ea688d830e961071719370ceaad355</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-21 16:25:45</sys_created_on>
-        <sys_id>99ea688d830e961071719370ceaad38c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>51ea688d830e961071719370ceaad355</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-21 16:25:45</sys_created_on>
-        <sys_id>51ea688d830e961071719370ceaad38d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script_job</field>
         <id>51ea688d830e961071719370ceaad355</id>
@@ -1272,11 +1224,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 16:25:45</sys_created_on>
         <sys_id>51ea688d830e961071719370ceaad386</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>passfail</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_51ea688d830e961071719370ceaad355_passfail_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
         <url/>
@@ -1655,11 +1607,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 16:25:45</sys_created_on>
         <sys_id>5dea688d830e961071719370ceaad343</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>job</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5dea688d830e961071719370ceaad33b_job_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
         <url/>
@@ -1680,11 +1632,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 16:25:45</sys_created_on>
         <sys_id>29ea688d830e961071719370ceaad3aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5dea688d830e961071719370ceaad33b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
         <url/>
@@ -1703,11 +1655,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 16:25:45</sys_created_on>
         <sys_id>65ea688d830e961071719370ceaad3a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5dea688d830e961071719370ceaad33b___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
         <url/>
@@ -1726,11 +1678,11 @@ https://www.youtube.com/watch?v=1fjfdOfjXO0&amp;list=PLkQDoKoP0MAOMa7o_B8_hhtzoX
         <sys_created_on>2024-11-21 16:25:45</sys_created_on>
         <sys_id>e9ea688d830e961071719370ceaad3a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>finalPassFail</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5dea688d830e961071719370ceaad33b_finalpassfail_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 16:25:45</sys_updated_on>
         <url/>
