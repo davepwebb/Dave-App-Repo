@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="">f8d74bdddbc18850a6d183243996194d</ml_capability_definition>
+        <ml_solution/>
+        <name>Closed alert similarity</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-31 00:00:00</run_period>
+        <run_start>2024-11-21 17:23:48</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 17:23:48</sys_created_on>
+        <sys_id>7f28f0cd838e961071719370ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed alert similarity</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>ml_training_request_schedule_7f28f0cd838e961071719370ceaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 17:23:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</application>
+        <file_path/>
+        <instance_id>f931e4471b22f5d09377eb9b2d4bcbad</instance_id>
+        <instance_name>dev219138</instance_name>
+        <name>ml_training_request_schedule_7f28f0cd838e961071719370ceaad3af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="">f8d74bdddbc18850a6d183243996194d</ml_capability_definition>
+        <ml_solution/>
+        <name>Closed alert similarity</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-31 00:00:00</run_period>
+        <run_start>2024-11-21 17:23:48</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 17:23:48</sys_created_on>
+        <sys_id>7f28f0cd838e961071719370ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed alert similarity</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>ml_training_request_schedule_7f28f0cd838e961071719370ceaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 17:23:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+</record_update>]]></payload>
+        <payload_hash>1067075800</payload_hash>
+        <record_name>Closed alert similarity</record_name>
+        <reverted_from/>
+        <source>abff479e8302121071719370ceaad3ad</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:39:40</sys_created_on>
+        <sys_id>da00db9e8302121071719370ceaad318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193661fcb720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:39:40</sys_updated_on>
+        <type>Training Request Schedule</type>
+        <update_guid>9a00db9e780212106ff470c898407518</update_guid>
+        <update_guid_history>9a00db9e780212106ff470c898407518:1067075800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 02:23:47</sys_created_on>
+        <sys_db_object display_value="" name="ml_training_request_schedule">ml_training_request_schedule</sys_db_object>
+        <sys_id>477582745f76422083814af26ea01900</sys_id>
+        <sys_metadata>7f28f0cd838e961071719370ceaad3af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed alert similarity</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_scope_delete display_value="">62a92bb5eeed41da996f5d6f5be2cd51</sys_scope_delete>
+        <sys_update_name>ml_training_request_schedule_7f28f0cd838e961071719370ceaad3af</sys_update_name>
+        <sys_update_version display_value="ml_training_request_schedule_7f28f0cd838e961071719370ceaad3af">da00db9e8302121071719370ceaad318</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 02:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
