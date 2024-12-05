@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Break Glass Request">a8a8d27983bd1210ddf6cd60ceaad39f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 22:05:17</sys_created_on>
+        <sys_id>11b81a3d83bd1210ddf6cd60ceaad303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Break Glass Request</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>io_set_item_11b81a3d83bd1210ddf6cd60ceaad303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 21:33:11</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</application>
+        <file_path/>
+        <instance_id>c4fa715adb363dd002d91729139619d1</instance_id>
+        <instance_name>dev230754</instance_name>
+        <name>io_set_item_11b81a3d83bd1210ddf6cd60ceaad303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Break Glass Request">a8a8d27983bd1210ddf6cd60ceaad39f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-11 22:05:17</sys_created_on><sys_id>11b81a3d83bd1210ddf6cd60ceaad303</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Standard Employee Questions.Break Glass Request</sys_name><sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package><sys_policy/><sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope><sys_update_name>io_set_item_11b81a3d83bd1210ddf6cd60ceaad303</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-19 21:33:11</sys_updated_on><variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-749487443</payload_hash>
+        <record_name>Standard Employee Questions.Break Glass Request</record_name>
+        <reverted_from/>
+        <source>9638476e83061210ddf6cd60ceaad35b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 19:44:01</sys_created_on>
+        <sys_id>ae38476e83061210ddf6cd60ceaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1936a008dd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 19:44:01</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>2238476e0b0612102ddcea2d410fa0cc</update_guid>
+        <update_guid_history>2238476e0b0612102ddcea2d410fa0cc:-749487443,691e579ce8ce12104d850fd4ee712148:58517638,11ce1fdc00ce12108e9a2a1b23b7949a:541646866,691e579ce8ce12104d850fd4ee712148:58517638,d11e579c6cce12100d1c46be0511ec43:-647740259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions.Break Glass Request">baf333aa834a1210ddf6cd60ceaad3d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 22:55:11</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>37babeb321914670b37be932ca5b0f10</sys_id>
+        <sys_metadata>11b81a3d83bd1210ddf6cd60ceaad303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.Break Glass Request</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_scope_delete display_value="">62a92bb5eeed41da996f5d6f5be2cd51</sys_scope_delete>
+        <sys_update_name>io_set_item_11b81a3d83bd1210ddf6cd60ceaad303</sys_update_name>
+        <sys_update_version display_value="io_set_item_11b81a3d83bd1210ddf6cd60ceaad303">ae38476e83061210ddf6cd60ceaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 22:55:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
