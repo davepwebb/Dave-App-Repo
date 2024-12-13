@@ -1,0 +1,2655 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template>DATASTREAM</action_template>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Utility">e0ecd809838a961071719370ceaad379</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>DW Data Stream Test</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>dw_data_stream_test</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>DW Data Stream Test</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67cbcdf283521210ddf6cd60ceaad3d1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DW Data Stream Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_67cbcdf283521210ddf6cd60ceaad3d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_element_mapping action="delete_multiple" query="id=67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ds_parsed_stream</field>
+        <id>67cbcdf283521210ddf6cd60ceaad3d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>e0b095fe83921210ddf6cd60ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</table>
+        <value>{{step[71410c29-444c-48ac-9c3e-69e0405dcd75].parsed_stream}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_code</field>
+        <id>67cbcdf283521210ddf6cd60ceaad3d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>a4b095fe83921210ddf6cd60ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</table>
+        <value>{{step[393fc7ef-ef36-4a24-a7fe-bcb90c112193].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>67cbcdf283521210ddf6cd60ceaad3d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>a8b095fe83921210ddf6cd60ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</table>
+        <value>{{step[393fc7ef-ef36-4a24-a7fe-bcb90c112193].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_headers</field>
+        <id>67cbcdf283521210ddf6cd60ceaad3d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>6cb095fe83921210ddf6cd60ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</table>
+        <value>{{step[393fc7ef-ef36-4a24-a7fe-bcb90c112193].response_headers}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>67cbcdf283521210ddf6cd60ceaad3d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>20b095fe83921210ddf6cd60ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</table>
+        <value>{{step[393fc7ef-ef36-4a24-a7fe-bcb90c112193].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=67cbcdf283521210ddf6cd60ceaad3d1^sys_idNOT IN08b055fe83921210ddf6cd60ceaad397,23db49b683921210ddf6cd60ceaad38b,2ba055fe83921210ddf6cd60ceaad332,53a015fe83921210ddf6cd60ceaad3e4,abdb49b683921210ddf6cd60ceaad393,c4b055fe83921210ddf6cd60ceaad35d,c4b055fe83921210ddf6cd60ceaad3ad,eba055fe83921210ddf6cd60ceaad30f,fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>aa596736-192f-48c8-9e93-b617f2c4ded6</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Splitter step</label>
+        <order>8</order>
+        <outputs/>
+        <section>DATASTREAM_PARSING</section>
+        <step_type display_value="Splitter">f4fe7504e713230007a64caac2f6a9d0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>08b055fe83921210ddf6cd60ceaad397</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_element_mapping action="delete_multiple" query="id=08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stream</field>
+        <id>08b055fe83921210ddf6cd60ceaad397</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>48b055fe83921210ddf6cd60ceaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
+        <value>{{step[393fc7ef-ef36-4a24-a7fe-bcb90c112193].response_stream}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_08b055fe83921210ddf6cd60ceaad397"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>483e838c-8617-4091-9241-10f961e0aba2</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Action Preprocessing</label>
+        <order>1</order>
+        <outputs/>
+        <section>DATASTREAM_PREPROCESS</section>
+        <step_type display_value="Action Preprocessing">235a47afcbfa2300a2fcb895634c9c04</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:52</sys_created_on>
+        <sys_id>23db49b683921210ddf6cd60ceaad38b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>23db49b683921210ddf6cd60ceaad38b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>17a015fe83921210ddf6cd60ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>23db49b683921210ddf6cd60ceaad38b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>9fa015fe83921210ddf6cd60ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Retrieve connection info">f0e1b930435311100f0b10fadab8f2f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_23db49b683921210ddf6cd60ceaad38b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>46226e2d-a2a6-40ed-935b-0df6b37c78d5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pagination Setup step</label>
+        <order>5</order>
+        <outputs/>
+        <section>DATASTREAM_REQUEST</section>
+        <step_type display_value="Pagination Setup">737c7540e713230007a64caac2f6a9b6</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>2ba055fe83921210ddf6cd60ceaad332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ba055fe83921210ddf6cd60ceaad332"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ba055fe83921210ddf6cd60ceaad332</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>f3a055fe83921210ddf6cd60ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true}]</value>
+        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2ba055fe83921210ddf6cd60ceaad332^id=2ba055fe83921210ddf6cd60ceaad332"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_737c7540e713230007a64caac2f6a9b6^id=2ba055fe83921210ddf6cd60ceaad332"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ba055fe83921210ddf6cd60ceaad332"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2ba055fe83921210ddf6cd60ceaad332"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ba055fe83921210ddf6cd60ceaad332^sys_idNOT INa3a055fe83921210ddf6cd60ceaad336"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>getNextPage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>getNextPage</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pagination Setup step">2ba055fe83921210ddf6cd60ceaad332</model>
+        <model_id>2ba055fe83921210ddf6cd60ceaad332</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ba055fe83921210ddf6cd60ceaad332</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>a3a055fe83921210ddf6cd60ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ba055fe83921210ddf6cd60ceaad332"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2ba055fe83921210ddf6cd60ceaad332^sys_idNOT INffa055fe83921210ddf6cd60ceaad338"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>getNextPage</element>
+        <help/>
+        <hint/>
+        <label>getNextPage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_2ba055fe83921210ddf6cd60ceaad332</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>ffa055fe83921210ddf6cd60ceaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getNextPage</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2ba055fe83921210ddf6cd60ceaad332_getNextPage_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>77a40b24-908d-4b91-b736-770e88cff1e7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Get Connection Info step</label>
+        <order>2</order>
+        <outputs/>
+        <section>DATASTREAM_PREPROCESS</section>
+        <step_type display_value="Get Connection Info">95eeb235e7011010493520c343f6a983</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>53a015fe83921210ddf6cd60ceaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53a015fe83921210ddf6cd60ceaad3e4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4^id=53a015fe83921210ddf6cd60ceaad3e4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_95eeb235e7011010493520c343f6a983^id=53a015fe83921210ddf6cd60ceaad3e4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=53a015fe83921210ddf6cd60ceaad3e4"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=53a015fe83921210ddf6cd60ceaad3e4"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=53a015fe83921210ddf6cd60ceaad3e4^sys_idNOT IN6ba015fe83921210ddf6cd60ceaad3f4,93a015fe83921210ddf6cd60ceaad3ea,a7a015fe83921210ddf6cd60ceaad3fa,aba015fe83921210ddf6cd60ceaad3f1,dba015fe83921210ddf6cd60ceaad3ee,e7a015fe83921210ddf6cd60ceaad3f7"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ed62707f-16dc-4805-9f6a-6d63767832e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credential_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Credential ID</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Connection Info step">53a015fe83921210ddf6cd60ceaad3e4</model>
+        <model_id>53a015fe83921210ddf6cd60ceaad3e4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>6ba015fe83921210ddf6cd60ceaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0498c95d-978d-4cdf-bc6f-15e9829cb5a0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>runtime_alias_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Runtime Alias ID</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Connection Info step">53a015fe83921210ddf6cd60ceaad3e4</model>
+        <model_id>53a015fe83921210ddf6cd60ceaad3e4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>93a015fe83921210ddf6cd60ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD97a015fe649212109e53d7992ebce0e8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3adc763897b37d10e5a61c800153af72</scope_name>
+        <serialized_content>{"FlowDesigner:FD97a015fe649212109e53d7992ebce0e8":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD97a015fe649212109e53d7992ebce0e8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Step Status\",\"mandatory\":\"false\",\"uiUniqueId\":\"1c91f92c-fda7-400b-95cd-64ea67e107c6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD97a015fe649212109e53d7992ebce0e8\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"6\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ba015fe83921210ddf6cd60ceaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD97a015fe649212109e53d7992ebce0e8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1c91f92c-fda7-400b-95cd-64ea67e107c6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__step_status__</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Step Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Connection Info step">53a015fe83921210ddf6cd60ceaad3e4</model>
+        <model_id>53a015fe83921210ddf6cd60ceaad3e4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>a7a015fe83921210ddf6cd60ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,hidden_for=define_connection_inline,uiType=string,uiTypeLabel=String,uiUniqueId=c03dc432-413a-41e7-9ca7-73a6ee07db89</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Connection URL</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Connection Info step">53a015fe83921210ddf6cd60ceaad3e4</model>
+        <model_id>53a015fe83921210ddf6cd60ceaad3e4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>aba015fe83921210ddf6cd60ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,hidden_for=define_connection_inline,uiType=string,uiTypeLabel=String,uiUniqueId=f7125822-259d-4904-8076-7c4627608cce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Connection ID</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Connection Info step">53a015fe83921210ddf6cd60ceaad3e4</model>
+        <model_id>53a015fe83921210ddf6cd60ceaad3e4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>dba015fe83921210ddf6cd60ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=4c57aef1-fbb5-408a-9e6f-2bb5eeedc699</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credential_value</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Get Connection Info step">53a015fe83921210ddf6cd60ceaad3e4</model>
+        <model_id>53a015fe83921210ddf6cd60ceaad3e4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>e7a015fe83921210ddf6cd60ceaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53a015fe83921210ddf6cd60ceaad3e4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4^sys_idNOT IN13a015fe83921210ddf6cd60ceaad3ee,2fa015fe83921210ddf6cd60ceaad3f6,aba015fe83921210ddf6cd60ceaad3fc,afa015fe83921210ddf6cd60ceaad3f3,eba015fe83921210ddf6cd60ceaad3f9,efa015fe83921210ddf6cd60ceaad3f0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>runtime_alias_id</element>
+        <help/>
+        <hint/>
+        <label>Runtime Alias ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>13a015fe83921210ddf6cd60ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Runtime Alias ID</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4_runtime_alias_id_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credential_id</element>
+        <help/>
+        <hint/>
+        <label>Credential ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>2fa015fe83921210ddf6cd60ceaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credential ID</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4_credential_id_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__step_status__</element>
+        <help/>
+        <hint/>
+        <label>Step Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>aba015fe83921210ddf6cd60ceaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step Status</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4___step_status___en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>connection_url</element>
+        <help/>
+        <hint/>
+        <label>Connection URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>afa015fe83921210ddf6cd60ceaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Connection URL</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4_connection_url_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credential_value</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>eba015fe83921210ddf6cd60ceaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credential Value</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4_credential_value_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>connection_id</element>
+        <help/>
+        <hint/>
+        <label>Connection ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:53</sys_created_on>
+        <sys_id>efa015fe83921210ddf6cd60ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Connection ID</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_53a015fe83921210ddf6cd60ceaad3e4_connection_id_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>2ef8fd08-27c6-4938-b8e6-50a3d6c8c87c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Request</label>
+        <order>4</order>
+        <outputs/>
+        <section>DATASTREAM_REQUEST</section>
+        <step_type display_value="Request">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:52</sys_created_on>
+        <sys_id>abdb49b683921210ddf6cd60ceaad393</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>abdb49b683921210ddf6cd60ceaad393</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>6ba055fe83921210ddf6cd60ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <value>rest_step</value>
+        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>abdb49b683921210ddf6cd60ceaad393</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>a7a055fe83921210ddf6cd60ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_21ba87afcbfa2300a2fcb895634c9c3d^id=abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_abdb49b683921210ddf6cd60ceaad393"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>b7029b11-6634-4999-b4c6-418187fef2e8</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Parsing</label>
+        <order>7</order>
+        <outputs/>
+        <section>DATASTREAM_PARSING</section>
+        <step_type display_value="Parsing">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>c4b055fe83921210ddf6cd60ceaad35d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4b055fe83921210ddf6cd60ceaad35d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>88b055fe83921210ddf6cd60ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>json_splitter</value>
+        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4b055fe83921210ddf6cd60ceaad35d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>c4b055fe83921210ddf6cd60ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>script_parser</value>
+        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_1f1b8bafcbfa2300a2fcb895634c9c33^id=c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c4b055fe83921210ddf6cd60ceaad35d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>71410c29-444c-48ac-9c3e-69e0405dcd75</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Script Parser step</label>
+        <order>9</order>
+        <outputs/>
+        <section>DATASTREAM_PARSING</section>
+        <step_type display_value="Script Parser">e83b26f68723230057a8ed4d87cb0b24</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>c4b055fe83921210ddf6cd60ceaad3ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4b055fe83921210ddf6cd60ceaad3ad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:56</sys_created_on>
+        <sys_id>c0b055fe83921210ddf6cd60ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:56</sys_updated_on>
+        <value>(function parse(inputs, outputs) {
+
+// Source item string is available in inputs.sourceItem.
+// Generate output by setting fields of outputs.targetObject.
+// 
+// The structure of outputs.targetObject corresponds to the
+// structure defined in the Data Stream Action output.
+// 
+// Optionally skip an item in the stream by setting
+// outputs.state = 'SKIP'
+//
+// JSON Example:
+// var item = JSON.parse(inputs.sourceItem);
+// outputs.targetObject.ffName = item.firstName;
+// outputs.targetObject.llName = item.lastName;
+// outputs.targetObject.address.home.city = item.address.home.city;
+//
+// XML Example: 
+// var xmlDoc = new XMLDocument2();
+// xmlDoc.parseXML(inputs.sourceItem);
+// var root = xmlDoc.getDocumentElement();
+// if (root.getNodeName() != 'user') {
+//     outputs.state = 'SKIP';
+//     return;
+// }
+// outputs.targetObject.id = xmlDoc.getNodeText('/user/id');
+// outputs.targetObject.fname = xmlDoc.getNodeText('/user/person/first_name');
+// outputs.targetObject.lname = xmlDoc.getNodeText('/user/person/last_name');
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c4b055fe83921210ddf6cd60ceaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:56</sys_created_on>
+        <sys_id>40b055fe83921210ddf6cd60ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>split_stream</field>
+        <id>c4b055fe83921210ddf6cd60ceaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:56</sys_created_on>
+        <sys_id>8cb055fe83921210ddf6cd60ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
+        <value>{{step[aa596736-192f-48c8-9e93-b617f2c4ded6].split_stream}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c4b055fe83921210ddf6cd60ceaad3ad"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>69672937-6959-4f9a-8551-b0b1ab5290f6</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section>DATASTREAM_PREPROCESS</section>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>eba055fe83921210ddf6cd60ceaad30f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eba055fe83921210ddf6cd60ceaad30f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>27a055fe83921210ddf6cd60ceaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eba055fe83921210ddf6cd60ceaad30f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:54</sys_created_on>
+        <sys_id>e7a055fe83921210ddf6cd60ceaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_eba055fe83921210ddf6cd60ceaad30f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action>
+        <cid>393fc7ef-ef36-4a24-a7fe-bcb90c112193</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>6</order>
+        <outputs/>
+        <section>DATASTREAM_REQUEST</section>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>fba055fe83921210ddf6cd60ceaad33f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fba055fe83921210ddf6cd60ceaad33f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>3ba055fe83921210ddf6cd60ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fba055fe83921210ddf6cd60ceaad33f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>73a055fe83921210ddf6cd60ceaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fba055fe83921210ddf6cd60ceaad33f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>77a055fe83921210ddf6cd60ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fba055fe83921210ddf6cd60ceaad33f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>b3a055fe83921210ddf6cd60ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fba055fe83921210ddf6cd60ceaad33f</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>bfa055fe83921210ddf6cd60ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fba055fe83921210ddf6cd60ceaad33f</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:55</sys_created_on>
+        <sys_id>fba055fe83921210ddf6cd60ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:55</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_fba055fe83921210ddf6cd60ceaad33f"/>
+    <sys_hub_action_input action="delete_multiple" query="model=67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_hub_action_output action="delete_multiple" query="model=67cbcdf283521210ddf6cd60ceaad3d1^sys_idNOT IN18b055fe83921210ddf6cd60ceaad3d7,37db49b683921210ddf6cd60ceaad3b2,48b055fe83921210ddf6cd60ceaad3d3,4ceb49b683921210ddf6cd60ceaad3b5,50b055fe83921210ddf6cd60ceaad3db,58b055fe83921210ddf6cd60ceaad3de,84eb49b683921210ddf6cd60ceaad3b9,90b055fe83921210ddf6cd60ceaad3e2,a7db49b683921210ddf6cd60ceaad3a4,cceb49b683921210ddf6cd60ceaad3bc,fbdb49b683921210ddf6cd60ceaad3ae"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_message</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">26a48b7347622200b4fad7527c9a71c0</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error_message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:56</sys_created_on>
+        <sys_id>18b055fe83921210ddf6cd60ceaad3d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18b055fe83921210ddf6cd60ceaad3d7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18b055fe83921210ddf6cd60ceaad3d7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:53</sys_created_on>
+        <sys_id>37db49b683921210ddf6cd60ceaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=37db49b683921210ddf6cd60ceaad3b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=37db49b683921210ddf6cd60ceaad3b2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_headers</element>
+        <element_prototype display_value="Response Headers" element="response_headers" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">09d4cb7347622200b4fad7527c9a71e3</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_headers</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:56</sys_created_on>
+        <sys_id>48b055fe83921210ddf6cd60ceaad3d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=48b055fe83921210ddf6cd60ceaad3d3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=48b055fe83921210ddf6cd60ceaad3d3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ds_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>ds_count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:54</sys_created_on>
+        <sys_id>4ceb49b683921210ddf6cd60ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4ceb49b683921210ddf6cd60ceaad3b5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4ceb49b683921210ddf6cd60ceaad3b5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status_code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>50b055fe83921210ddf6cd60ceaad3db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=50b055fe83921210ddf6cd60ceaad3db"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=50b055fe83921210ddf6cd60ceaad3db"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_code</element>
+        <element_prototype display_value="Error Code" element="error_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">d1744b7347622200b4fad7527c9a7105</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error_code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>10</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>58b055fe83921210ddf6cd60ceaad3de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=58b055fe83921210ddf6cd60ceaad3de"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58b055fe83921210ddf6cd60ceaad3de"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>item</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:54</sys_created_on>
+        <sys_id>84eb49b683921210ddf6cd60ceaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84eb49b683921210ddf6cd60ceaad3b9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=84eb49b683921210ddf6cd60ceaad3b9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ds_parsed_stream</element>
+        <element_prototype display_value="Parsed Stream" element="parsed_stream" name="var__m_sys_flow_step_definition_output_e83b26f68723230057a8ed4d87cb0b24">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ds_parsed_stream</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>11</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>90b055fe83921210ddf6cd60ceaad3e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=90b055fe83921210ddf6cd60ceaad3e2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=90b055fe83921210ddf6cd60ceaad3e2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_ad=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Item Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:52</sys_created_on>
+        <sys_id>a7db49b683921210ddf6cd60ceaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a7db49b683921210ddf6cd60ceaad3a4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7db49b683921210ddf6cd60ceaad3a4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,visible_in_fd=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ds_output_page_variables</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ds_output_page_variables</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:54</sys_created_on>
+        <sys_id>cceb49b683921210ddf6cd60ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cceb49b683921210ddf6cd60ceaad3bc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cceb49b683921210ddf6cd60ceaad3bc"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,visible_in_ad=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>page_count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Page Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</model>
+        <model_id>67cbcdf283521210ddf6cd60ceaad3d1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:53</sys_created_on>
+        <sys_id>fbdb49b683921210ddf6cd60ceaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fbdb49b683921210ddf6cd60ceaad3ae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fbdb49b683921210ddf6cd60ceaad3ae"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=67cbcdf283521210ddf6cd60ceaad3d1^sys_idNOT IN5ceb49b683921210ddf6cd60ceaad3de"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="DW Data Stream Test">67cbcdf283521210ddf6cd60ceaad3d1</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:55</sys_created_on>
+        <sys_id>5ceb49b683921210ddf6cd60ceaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:55</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=5ceb49b683921210ddf6cd60ceaad3de"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1^sys_idNOT IN04eb49b683921210ddf6cd60ceaad3bc,10b055fe83921210ddf6cd60ceaad3e5,5cb055fe83921210ddf6cd60ceaad3d6,7bdb49b683921210ddf6cd60ceaad3b1,80eb49b683921210ddf6cd60ceaad3b5,94b055fe83921210ddf6cd60ceaad3da,9cb055fe83921210ddf6cd60ceaad3dd,bbdb49b683921210ddf6cd60ceaad3ad,c8eb49b683921210ddf6cd60ceaad3b8,d4b055fe83921210ddf6cd60ceaad3e1,d8eb49b683921210ddf6cd60ceaad3d8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>item</element>
+        <help/>
+        <hint/>
+        <label>item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:54</sys_created_on>
+        <sys_id>04eb49b683921210ddf6cd60ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_item_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ds_parsed_stream</element>
+        <help/>
+        <hint/>
+        <label>ds_parsed_stream</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>10b055fe83921210ddf6cd60ceaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ds_parsed_stream</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_ds_parsed_stream_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_headers</element>
+        <help/>
+        <hint/>
+        <label>response_headers</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:56</sys_created_on>
+        <sys_id>5cb055fe83921210ddf6cd60ceaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response_headers</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_response_headers_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>page_count</element>
+        <help/>
+        <hint/>
+        <label>Page Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:53</sys_created_on>
+        <sys_id>7bdb49b683921210ddf6cd60ceaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Page Count</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_page_count_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>count</element>
+        <help/>
+        <hint/>
+        <label>count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:54</sys_created_on>
+        <sys_id>80eb49b683921210ddf6cd60ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>count</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_count_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_message</element>
+        <help/>
+        <hint/>
+        <label>error_message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>94b055fe83921210ddf6cd60ceaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>error_message</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_error_message_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status_code</element>
+        <help/>
+        <hint/>
+        <label>status_code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>9cb055fe83921210ddf6cd60ceaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status_code</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_status_code_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>item_count</element>
+        <help/>
+        <hint/>
+        <label>Item Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:53</sys_created_on>
+        <sys_id>bbdb49b683921210ddf6cd60ceaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item Count</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_item_count_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ds_count</element>
+        <help/>
+        <hint/>
+        <label>ds_count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:54</sys_created_on>
+        <sys_id>c8eb49b683921210ddf6cd60ceaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ds_count</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_ds_count_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_code</element>
+        <help/>
+        <hint/>
+        <label>error_code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:55:57</sys_created_on>
+        <sys_id>d4b055fe83921210ddf6cd60ceaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>error_code</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_error_code_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:55:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ds_output_page_variables</element>
+        <help/>
+        <hint/>
+        <label>ds_output_page_variables</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:34:55</sys_created_on>
+        <sys_id>d8eb49b683921210ddf6cd60ceaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ds_output_page_variables</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1_ds_output_page_variables_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:34:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_67cbcdf283521210ddf6cd60ceaad3d1"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=67cbcdf283521210ddf6cd60ceaad3d1"/>
+</record_update>
