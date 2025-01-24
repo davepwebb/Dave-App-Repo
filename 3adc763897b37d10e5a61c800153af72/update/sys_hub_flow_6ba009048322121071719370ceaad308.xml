@@ -5,19 +5,14 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1182000,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Auto-Update each PDI Banner Announcement</description>
-        <display_name_after_preview/>
-        <flow_priority>MEDIUM</flow_priority>
-        <generation_source/>
         <internal_name>dw_autoupdate_ux_banner_announcement_with_system_property</internal_name>
         <label_cache>[{"name":"b90d4c41-17f9-4b49-b8d3-a576b8e9e57c.Record.value","label":"1 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"a3d3f1f5-258f-42f1-a798-5370267a670d":["summary"],"71c666c9-811c-44bb-95d4-3106876c15c8":["composite_message-0"]}},{"name":"8e093811-ef37-45ef-81e5-23f755ac130d.Record","label":"5 - Look Up Record➛Banner Announcement Record","reference":"sys_ux_banner_announcement","reference_display":"Banner Announcement","type":"reference","base_type":"reference","usedInstances":{"a3d3f1f5-258f-42f1-a798-5370267a670d":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.composite_message","label":"Flow Variables➛composite_message","type":"string","base_type":"string","usedInstances":{"5a0ea3bd-09ee-416c-b021-b132d3f36caf":["composite_message-0"],"a3d3f1f5-258f-42f1-a798-5370267a670d":["summary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ceadaca8-e81b-4c28-bc25-fa6dd4b46237"}},{"name":"40ee27a7-48d8-4d4f-9e40-4be60135559f.Record.sys_updated_on","label":"3 - Look Up Record➛System Property Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sys_properties","column_name":"sys_updated_on","usedInstances":{"5a0ea3bd-09ee-416c-b021-b132d3f36caf":["composite_message-0"]}}]</label_cache>
         <master_snapshot>d8354dc48362121071719370ceaad304</master_snapshot>
-        <master_snapshot_digest/>
         <name>DW Auto-Update UX Banner Announcement with System Property</name>
         <natlang/>
         <outputs/>
@@ -29,7 +24,6 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
-        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-13 11:58:24</sys_created_on>
@@ -46,7 +40,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-12-18 01:00:54</sys_updated_on>
         <type>flow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6ba009048322121071719370ceaad308"/>
     <sys_variable_value action="delete_multiple" query="document_key=6ba009048322121071719370ceaad308"/>
@@ -90,6 +83,7 @@
         <trigger display_value="">38354dc48362121071719370ceaad3b9</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6ba009048322121071719370ceaad308^sys_idNOT INf4354dc48362121071719370ceaad3ba"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6ba009048322121071719370ceaad308"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=6ba009048322121071719370ceaad308"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6ba009048322121071719370ceaad308^sys_idNOT IN6fa009048322121071719370ceaad30a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -275,277 +269,12 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9cc1858c8322121071719370ceaad303"/>
     <sys_hub_flow_output action="delete_multiple" query="model=6ba009048322121071719370ceaad308"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6ba009048322121071719370ceaad308"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6ba009048322121071719370ceaad308^sys_idNOT IN58c1858c8322121071719370ceaad330"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:03:06</sys_created_on>
-        <sys_id>58c1858c8322121071719370ceaad330</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:08:34</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLdtkkUDpBvAybYPaSBQ0tAmSpOuRCnrXeTfO9TFliX6Fjub5CWAODTnzOGZC/Pww+YkBG6f2/ck5GCf2EwoSATh9/MZ4LLSy4EgU22bEhETJZO5fa6SDE5smcSQ2OfuiZ0TnsHdPL2O8Ue4tfhF9XO7MuN3KoI8jQIux0wEkINQaIxZOuNk/le150YbravKGE0YjxMQ9vnD44k9IwkerLTTHy0T054jGpGhB07ku77nOY531nPDUz90vdgn4Dh4YDvgFlJliHsZJnxTIGJAV5TwFAyUJEDiW8Hnix0TZLTkZEq+pew7nn7m6H0UEHsEpW3xGVRslMvRRLIIbmeKSVGulDhLo+TZVHwp8WsegZKMq5pHXMlSPA9mGrIGUSGidxP5NKodfmaiiK4ychkRvvgiSiUszBSkmnDKOFIflNykMksK9KOri9vRZfD3p/uLP65Gwejq7n50fXF/dWk/F3EF/2X6xBJhhSUow3leXP5nBlxfICJOcGMaJWymPkWK5VCBeT5ZivVCipgVnHQEG9WmdFWwVUD1VTrOWs1GjcNr3ZaC1dr4J3McPy6/STxlYm+Nnp4SEgNZo9GQNjTajNOAThlCbga4Sa3Vyi5y7TnOGwm2TKkX63UqY+CXy+NsNI7HqGAmZpnSbD0RodJASbzKOGjwqLcipm0CLmPrqni7gpNM4BHB4oa6Oi6IXDB6w1IM4AFzsGarOBLt9KY6cpQJS+JV4h8ryhIkS1l1VaPXUzKuOKZ3wCFSDVnQr2nz60+WpkyMG6gXTgtWOj4X7lBeVh1S6Ts90PnjC5O4y2/e4q3VdfZOY9elNATqOQOdxK7jh9R1Bk6f0Nh3nMhrpHEXzFqUqnX7r5LO+yVzWuiO76CyNsUVeKcp/J0Uk6/KrSZBq6GqGRfHgeYeCZqnobVqn79X8VvIsly+XFXnptCO3ORJnBP8RbxrDdQbdih2lMungJka9rZCF5Lo33EiMxG3K48+08JZcbnD+qXi79cjFj0qE9gMYHXHG5W7JcO1RomYH6HQ+dQNh9ADB+ubj6Ut7A+HYUQ8SgenA/DcVqFbwjBi+xAFbouwcpMy1xU7o0Zyk7T2KHMHAOyUvL0BHl7sKmEaS11p+xhF7WkCItBPloDrstWpbWPOYqhtL07sjpd8mcqHJjc9G0Z9dzCIBvgQweSmPQiJ2/P6ZDg49c/6reTuQNkEUxlI+CnPk3SeBtVD0pT4X0vT+3pbv6ZCU1BKN5n9e6/A6bT4DSmdNPqfvharqB8ysb5I8dv1cp91B9jWijfqsZrwLij0xVqvCyOUatKZAtD177i+4lpPj2tYecs3UUsP+WpYB7+JoHfWH1LfXE3o0FRNlmDWw3z3Q8OOyZCvTSvT9LCrtnNjiqxt9y9Qa0smzTlgw6ByLFLco5PivR4p/sHDUZ2Lax+CLwH7gbpVMUIc0rK0TwgkbdbpS2mhwUInFqNW9X9AfNeHc0tNACnlOAWjQ0t7P7RANxtGF8pCwT8XSDlXdxoXLlvVrPSmPal168d9wkI8IP2+v2bKHbafsCZAW/C++w61dwLkpnza2Kb2O7d9prFRNdS5qogdW9BRozb3ocOiNnaibVEf3mM2PcANKN5p93j8H2jNB4HAHgAA</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6ba009048322121071719370ceaad308^sys_idNOT IN14c1858c8322121071719370ceaad334,5cc1858c8322121071719370ceaad332,75b405848362121071719370ceaad3d1,a4038d408362121071719370ceaad33a"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <generation_source/>
-        <order>5</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:03:06</sys_created_on>
-        <sys_id>14c1858c8322121071719370ceaad334</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-12-18 11:14:53</sys_updated_on>
-        <ui_id>8e093811-ef37-45ef-81e5-23f755ac130d</ui_id>
-        <values>H4sIAAAAAAAA/+VY227jNhD9FUHPjiv5JjtP3SY1EDTdAJt0X7YLghKpmChNakkqV+TfdyhStmortoU6QIK+GOBwSJ6ZOWdI+dtzyEh4GpJZNMtns/E0iaLhMIomk2GG4zQdTrI0SvEo7IUCLyl4GpxyCsM7zEs71o8alQ8oxUJQheBXliKjSyoMOBGmC44fv3rf3yqn4NO/nbIF40RREZ5++94LC6zgIENVePq8MXUoUo5TysH1xkPdQG4ei9UQVXPOdtlcFnx2E1IRCyXqhfTBUEEoYMgx17QXLrEg2Ej1uLIoismV4GvDgkGEp2FonR80e4Jzp5H1yylElVE3txoiny9nzs+xwddGlZkplXfNFpJlVLt8EJrjkpuzps05XBWGSeGWuLDdasnLpfjs0hGuNqjLA5ZSAwha2EAtch9Gfr2Q919qlHMmqpz4SS4zzFcjbIxiaWksnueQ8qrIaImLgolbVCh5x6rFgGXZv+Uw6Odc3sOhmt2KPs4s8D7kFffnYD+vzF+xYjaKP2EbWAyAGAeGIFdCLUtVpfIOZbzU1YTCQru9wpee5egZx1qvI4eUox+lxe3y4CNGLml2SaZYYT7BFnfUB/fSq8Uy3knB2ZpymRSEWRS6oZgFsASScXnxx++/bmtkY7ajOPYjq8Vx1oTWBtfLZMt22baBl0l8NJmMougjCQUOf3866c58l4I99I/JTpKRNZ+0VAa5XDb4v835zjw/AELN8yvLzCB9fA2Vp3nOKCdtt8HcTmzcBoP/523wLkkOgAhy1WOCM1Fd7QD0rdg/3km9NN7gWUWvxmvJ2rDOtjWAAyODp85KOABOrYRrODu4cXhaINb9vqLMZq+vjV4Aw6MJYDg4jgCeV2GuEtmS8/o1Z6tZ+z9Zf7zpDxRsLIhf2gTW6cy465mDl20BDzspuEk2N3P+CueO/Ox7RZG9t2wBC1jqz0NOv+iekVtq1qfXXkSae8z/aZv3jEN1oarw3uAJGe/8ikkbT0iWoyVUjhXw0lU0A3JohBVFOXxCEeTfuGsi2UrmTGnjnbcbzRcK+hGBBGEGZkGDyjtYeXe8iPfHUafyIg/qQPxpOoBAgiqQYBVIt7C7NK3RER+nx25ac8x4VQ34fCka5aRKSfVK49pTyB2MOLCrHQgqPiqo/9722iTQ2v72YP0Q38LHb00ZxelogCfJMI6jKI5IEk2TJJ5O0nyCk1G+1ihCWmTQTWHnHKgC26OaGnWdo+3+41pq10ZzAKqagudS/F1G0SAxgYUF9Q1qWPuB+4aSSskpFhsd5QbuiV/mHr/n6/jddZUP8c9QyW42M+1Mrbl+q3dDyf4S7EdJLyzFpjQaTGOSnUyTODkZ5WRyMiN4fIJn6TgZEpqN8mM+Bb7/BAJRCwp8FQAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:03:06</sys_created_on>
-        <sys_id>5cc1858c8322121071719370ceaad332</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-12-18 11:14:53</sys_updated_on>
-        <ui_id>b90d4c41-17f9-4b49-b8d3-a576b8e9e57c</ui_id>
-        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjiv5S3ZuiwQGCrRN0aS9dAuCEqmYWJpUSSquE+S/71CkbMFWbAvrAAn2yJkh+WbmvRHtn08hI+FlSGbRLJ/NxtMkiobDKJpMhhmO03Q4ydIoxaOwFwq8pBBpcMopLB8wL+1arzUqlCyoMoxqcBCmC47XP7z/dq0NXQZfXcgaArIF40RREV7+/NULC6zgYENVePm04zoVGccp5RB656HtIDXrYrNElc/ZPjW3BV+cQypioUS9kP4xVBAKGHLMNe2FSywINlKtNxZFMbkRfGtYMGHgxNAG/9HsEe6dRjYup5BVRp1vs0S+Vs6cX2ODb40qM1MqH5otJMugrFU9CM1xyc1V0+YCbgrDpHBbXNput+TlUnxx5Qg3B9StAUupAQQtbKIWuU8jv13I1bca5ZyJqibeyWWG+WaFjVEsLY3F8xRSTpdwEFriomDi3hLjgVWbAcuyf89h0c+5XMGlmt2LPs4s8D7UFffnYL+uzD+wYjaLz3AMbAZAjANDkGuhlqWqSvmAMl7qyqGw0O6s8LlnOXnFsdbbzKHk6Hdpcbs6+IyRK5rdkilWmL/giAfqk3vu1eIYH6TgbEu5TArCLArdUIj1/V3CVuLyX2G1L5P2oI5SOY6zlspVE2gbeC+aPduntgO8aOKziWYURe9JNnD521NNdx24EhwRQ0wOkoxs+aSlMsjVsqGGfep35vkJEGqe31hmBun6JVSe5jmjnLR9G+bWsfNtGPw/vw1vkuQAiCDXPSY4E9WHHoC+FvvHB6mXxjs8q+jVeCtZG9bZvgZwYGTw2FkJJ8CplXALdwd3Dk8LxHreV5TZnfW10QtgeDYBDAfnEcDTJs1NIVtqXr/tbDfr+Ecbj3fjgYKNDfFzm8A63Rl3vXPwvC/gYScFN8nmPNcvcO7Mj8AXFNl7zRGwgK3+PuT0i1aM3FOzvb2OItKsMP+nze8Zh+pGVem9woMyPvibJm08KFmOltA5VsC7V9EMyKERVhTlshQE+Rfvlki2kzlT2vjg/UHzjYJ+RCBBmIFZ0KCKDjbRHT/Ex/OoS/kxD+pE/G06gESCKpFgk0i3tLsMrdEZH6fnHlpzzHjVDfgxUzTaSZWS6oXBdaSRBxhx4lQ7EVR8VlD/fey1SaB1/B3B+i5+GZ9/NGUUp6MBniTDOI6iOCJJNE2SeDpJ8wlORvlWowhpkcE0hZNzoAocj2pq1H2O9uePG6ldB80JqGoKXkthf0cPEhNYWNDfoIZ1HLgfKKmUnGKxM1Hu4DvxYe7xe76O39xUeRf/E5XsbrfSztRa69d6N5Tsu2C/S/rRUmxKo8E0JtnFNImTi1FOJhczgscXeJaOkyGh2Sg/51Pg179kdqjCehUAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:16:02</sys_created_on>
-        <sys_id>75b405848362121071719370ceaad3d1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-12-18 11:14:53</sys_updated_on>
-        <ui_id>40ee27a7-48d8-4d4f-9e40-4be60135559f</ui_id>
-        <values>H4sIAAAAAAAA/+VYTW/jNhD9K4LQo+NK/pKdW5HUQNB0U2zSvWwXBCVSMbE0qSWpZJ0g/71DkbIFW7Et1AES9BbODMk3M++N6Hx9DhkJz0Myi2b5bDaeJlE0HEbRZDLMcJymw0mWRikehb1Q4CWFSINTTmH5gHlp13qlUaFkQZVhVIODMF1wvPri/bcrbegy+MuFrCAgWzBOFBXh+ddvvbDACg42VIXnz1uuY5FxnFIOoXce2hZSsyrWS1T5nO26uS345BxSEQsl6oX0p6GCUMCQY65pL1xiQbCRarW2KIrJjeAbw4IJAyeGNvinZk9w7zSycTmFrDLqfOsl8rVy5vwSG3xrVJmZUvnQbCFZBmWt6kFojktuLpo2F3BTGCaF2+LSdrslL5fikytHuD6gbg1YSg0gaGETtch9GvntQj5+rlHOmahq4p1cZpivV9gYxdLSWDzPIeV0CQehJS4KJu4tMR5YtRmwLPv3HBb9nMtHuFSze9HHmQXeh7ri/hzsl5X5C1bMZvEnHAObARDjwBDkWqhlqapSPqCMl7pyKCy0Oyt86VlOXnCs9SZzKDn6UVrcrg4+Y+SKZrdkihXmNzjigfrkXnq1OMZ7KTjbUC6TgjCLQjcUYn3XV3/8zkQuf4GCqlXVLfSoqvT63+lK0wxabv/aFVDX7R3ldTi3Wl4XzeTaEvZC27Fdtx3ghRafTGijKPpIUoPL35/SumvHleCAgGKyl2RkwyctlUGulg0F7YqiM8+PgFDz/MYyM0hXr6HyNM8Z5aTtezK3jq3vyeD/+T15lyQHQAS57jHBmageBwD0rdg/3ku9NN7iWUWvxvvK2rDOdjWAAyODp85KOAJOrYRbuDu4c3haINbzvqLM9qyvjV4Aw5MJYDg4jQCe12muC9lS8/o9aLtZxz/ZeLwdDxRsbIhf2gTW6c64652Dl10BDzspuEk257l8hXMnfji+osjeW46ABWz19yGnX/TIyD01m9vrKCLNI+bf2/yecahuVJXeGzxC472/g9LGI5TlaAmdYwW8lRXNgBwaYUVRLktBkH8lb4hkO5kzpY0P3h00nynoRwQShBmYBQ2q6GAd3fFDfDiPupRXeVAn4m/TASQSVIkE60S6pd1laI1O+Dg99dCaY8arbsAPoKLRTqqUVK8MrgON3MOII6fakaDik4L672OvTQKt4+8A1g/xa/r0oymjOB0N8CQZxnEUxRFJommSxNNJmk9wMso3GkVIiwymKZycA1XgeFRTo+5ztDt/3EjtOmiOQFVT8FKKf8ooGiQmsLCgv0EN6zBwP1BSKTnFYmui3MF34te5x+/5On53U+VD/G+pZHfblXam1lq/1buhZH8L9qOkV5ZiUxoNpjHJzqZJnJyNcjI5mxE8PsOzdJwMCc1G+SmfAt/+BTnzqVWuFQAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:08:35</sys_created_on>
-        <sys_id>a4038d408362121071719370ceaad33a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-12-18 11:14:53</sys_updated_on>
-        <ui_id>a3d3f1f5-258f-42f1-a798-5370267a670d</ui_id>
-        <values>H4sIAAAAAAAA/+VVTU/bQBD9K9GeE8uOEwi5USKkShQkqLgAtcbecVhpvXb3I5Ba+e8d2+skBUSh4oJ6ibTzte89z8ve1ExwNmcT5GF0FB1kcRTH4zAczyZRehCn0ZjHgBixIVNQIFVqzErN6bwC6ZpAXc8wPIpnUTTCPD4cTaaYj2YRTkfjOD+cTiGL4pAHl23fZkOdXJhKwvraD6BIdi8k16jY/OZuyCrQdJdFzeb1k9RbwUpIUVLpZY/2KXq7rpozLzNXoLKJ6INnvnPhM4OvC8pQUwMnCocMHy0qjgQkB2lwyApQHGyp12xutaOARuAXSq63FfdC2Y5oAY9G/KKbJ2FTlyMxy7wI22PiBerC+QIsXNHkzDq91asUGZpOE445OGlP9mNdwUVlRam6Fgup7LtL6Qp13inCtgP2voczBAKrhmeDvKOVX92XD5c9yFOhWkk8RVlmILcnsFaL1NkGTs1QYqtxAVUl1DKpdLkSbTNBKYKlpEOQy/KB7jRiqQLIGtwBqQrBKcUXbfgatGhIfKMx1LwZMrM2JxKM2VEhDZOfrkHSEfMUklaFVoKk3YSmOdOissd01Qo98M3Q2yGdvrZh2dFuofZm7ixBuBL3mKSgFOqEfktHijUaPN/+L23R4PjPovcZ4g1we0N8b9fgZfjeE89iZ/u9g/Mu4R0x/TBHzD6TIzyNT2+JvxkhHL/6V7u3Se3um30TuKIAvb51YRjzum7JrDzegEhWpREWkwKNgSVuNj+6yucO+fdB73PRG7j2LjoVKLl5gXxvISyIAYHqxHhiI58cXPvk9nH5wNcl/Exu+m/el7vfEzRULHAJAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6ba009048322121071719370ceaad308"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6ba009048322121071719370ceaad308^sys_idNOT IN3db405848362121071719370ceaad3d2,f1b405848362121071719370ceaad3d0"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">f5b405848362121071719370ceaad3d2</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <flow_variables_assigned>composite_message</flow_variables_assigned>
-        <generation_source/>
-        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>4</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:16:02</sys_created_on>
-        <sys_id>3db405848362121071719370ceaad3d2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:06</sys_updated_on>
-        <ui_id>5a0ea3bd-09ee-416c-b021-b132d3f36caf</ui_id>
-        <values>H4sIAAAAAAAA/+1VwW7bMAz9lULn2LMTJ3Fy6zYUKNCtQNv1shUGLdGJMFlyLTlpZvjfS8VOOmRDr8OA3MxHio98JOGWmcZVjbMP5tJaudJs+f1pxKT2GH23TEOJbMm4KStjpcOsRGthhWzENqAa72vbQplttoFaQq4w/CO2637oG7Du4mMjlfjwSRmNy4u2TSLE8RzmQZKKNEhEUgQLTKIgyXEWxZPpdLoowjvkphah3dmsqQQ4FJnRXUf8QtpKwe7xH5fB15StxkG6CmpSzGHNlu2Jy+0qzBTkqKjae1dLvaLnUpBVxHkSTdMknczG8TiO5vE8XkzmEUcAMclzijs8/Nsk3hmSJyWXPdBRE762aMTwxaEWSPQFKIsjVoKmxky9OyI1grjV6g1YS+0oG/PBL1b+otRpFEU+skBqlGPvPZrZMKQe5msjOd5WThrdI86PanAa1ZT6a9+KHy8W0Ch3GC8hjaV8WPmqfRlDTcX92mzvDoRXUu8bHJzKcFBHCxzJkDcOrZ9OIx9OxOmRm9MRocKSGLMSqoqQrKrNRu5ZvOThSpER7pdPoD+iELjvMCQ1Ibwi/PMefhw28wulocee7puWzw1e+xWgUQvgkAaYxnmQ8HEa5Hw8DQqYCZHkyWw8mbNuL2323PimepEGObJeUQqwvJaVu6QSNjh03j35a+3Z+7Peb937m3M+7/N5n8/7fzlvgVxaqurBl3B9+H97x47WR/Lfoa2pf/p+3rDuFTLS+xgJCAAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">39b405848362121071719370ceaad3cf</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</flow>
-        <flow_variables_assigned>composite_message</flow_variables_assigned>
-        <generation_source/>
-        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:16:02</sys_created_on>
-        <sys_id>f1b405848362121071719370ceaad3d0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:06</sys_updated_on>
-        <ui_id>71c666c9-811c-44bb-95d4-3106876c15c8</ui_id>
-        <values>H4sIAAAAAAAA/+1V32vbMBD+X/QcGztxYqdvhVEobCu0WV9GMSfpnIjJkmvJSbOQ/30n20lLGGWw17xZ3/367rs7fGC2803n3creOqfWht38fJkwZQJG3wdmoEZ2w4StG+uUx7JG52CNbMK2oLtgOxz4MpGZyNIozatllPFsGfFCziKY5wte4BLnuYgfUdhWxn3U8UjxUrlGw/75P9OIjdKyxZF6Ay0x9tiym8OFye8bLDVw1FTtybfKrClcSXpVKc+SeZEVs8U0naZJnubpcpYnAgHkjHPyOwX+TYlPRApFyeRO5Yh74JZMGL55NBKpfAXa4YTVYCR42+7PSIsgH4x+BzbKeMrGgvObU78pdZEkSfCskBoVOFjPz3IUeYDFxiqBD41X1gyIB67HGGF1V5vvQythPFhBp/1pPIR0jvJhE1gHGiOn6mljd4+ngnfK9A2ORm0F6PMLPMnAO48uTKdTqwtxBuTr5YhQY00VyxqahpCyae1W9VWC5PFa0yOutN0Ru7DEMYjQYUxqQnxH+JcefoZWhXa/URoKDuV+GPXa4X1YARq1BAFFhEXKo0xMi4iL6TyqYCEl7eJiOsvZsZe2fO1CU4NIoxzloCg5ONGqxt8ShS2OnR9fwrUM1Yez6rfu8825ntf1vK7n9a/nJVEoR6xWgcL96f8VDHtaHyU+Qjvb/gr9vGPHP6Y7TbcJBwAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6ba009048322121071719370ceaad308"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6ba009048322121071719370ceaad308"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6ba009048322121071719370ceaad308"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=6ba009048322121071719370ceaad308"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=6ba009048322121071719370ceaad308^sys_idNOT INf1b405848362121071719370ceaad3bb"/>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ceadaca8-e81b-4c28-bc25-fa6dd4b46237</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>composite_message</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>composite_message</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</model>
-        <model_id>6ba009048322121071719370ceaad308</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_variable_6ba009048322121071719370ceaad308</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:16:02</sys_created_on>
-        <sys_id>f1b405848362121071719370ceaad3bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:16:02</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308^sys_idNOT IN9cc1858c8322121071719370ceaad305,d8c1858c8322121071719370ceaad302"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_name</element>
-        <help/>
-        <hint/>
-        <label>Table Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:03:06</sys_created_on>
-        <sys_id>9cc1858c8322121071719370ceaad305</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
-        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308_table_name_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:03:06</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6ba009048322121071719370ceaad308"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308^sys_idNOT IN0f6710a5c32212100eee71fdd4013173,876710a5c32212100eee71fdd401317a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -557,7 +286,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-13 12:03:05</sys_created_on>
-        <sys_id>d8c1858c8322121071719370ceaad302</sys_id>
+        <sys_id>0f6710a5c32212100eee71fdd4013173</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
@@ -569,487 +298,44 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:03:06</sys_created_on>
+        <sys_id>876710a5c32212100eee71fdd401317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:03:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6ba009048322121071719370ceaad308"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6ba009048322121071719370ceaad308"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6ba009048322121071719370ceaad308"/>
-    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <acls/>
-        <active>true</active>
-        <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
-        <callable_by_client_api>false</callable_by_client_api>
-        <category/>
-        <copied_from/>
-        <copied_from_name/>
-        <description>Auto-Update each PDI Banner Announcement</description>
-        <flow_priority>MEDIUM</flow_priority>
-        <internal_name>dw_autoupdate_ux_banner_announcement_with_system_property</internal_name>
-        <label_cache>[{"name":"b90d4c41-17f9-4b49-b8d3-a576b8e9e57c.Record.value","label":"1 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"a3d3f1f5-258f-42f1-a798-5370267a670d":["summary"],"71c666c9-811c-44bb-95d4-3106876c15c8":["composite_message-0"]}},{"name":"8e093811-ef37-45ef-81e5-23f755ac130d.Record","label":"5 - Look Up Record➛Banner Announcement Record","reference":"sys_ux_banner_announcement","reference_display":"Banner Announcement","type":"reference","base_type":"reference","usedInstances":{"a3d3f1f5-258f-42f1-a798-5370267a670d":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.composite_message","label":"Flow Variables➛composite_message","type":"string","base_type":"string","usedInstances":{"5a0ea3bd-09ee-416c-b021-b132d3f36caf":["composite_message-0"],"a3d3f1f5-258f-42f1-a798-5370267a670d":["summary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ceadaca8-e81b-4c28-bc25-fa6dd4b46237"}},{"name":"40ee27a7-48d8-4d4f-9e40-4be60135559f.Record.sys_updated_on","label":"3 - Look Up Record➛System Property Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sys_properties","column_name":"sys_updated_on","usedInstances":{"5a0ea3bd-09ee-416c-b021-b132d3f36caf":["composite_message-0"]}}]</label_cache>
-        <master>true</master>
-        <name>DW Auto-Update UX Banner Announcement with System Property</name>
-        <natlang/>
-        <outputs/>
-        <parent_flow display_value="DW Auto-Update UX Banner Announcement with System Property">6ba009048322121071719370ceaad308</parent_flow>
-        <remote_trigger_id/>
-        <run_as>system</run_as>
-        <run_with_roles/>
-        <sc_callable>false</sc_callable>
-        <status>published</status>
-        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:06</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>d8354dc48362121071719370ceaad304</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:06</sys_updated_on>
-        <type>flow</type>
-        <version>2</version>
-    </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=d8354dc48362121071719370ceaad304"/>
-    <sys_variable_value action="delete_multiple" query="document_key=d8354dc48362121071719370ceaad304"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=d8354dc48362121071719370ceaad304^sys_idNOT INd0354dc48362121071719370ceaad305"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>d8354dc48362121071719370ceaad304</id>
-        <name>DW Auto-Update UX Banner Announcement with System Property</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:06</sys_created_on>
-        <sys_id>d0354dc48362121071719370ceaad305</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:06</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d0354dc48362121071719370ceaad305"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=d8354dc48362121071719370ceaad304^sys_idNOT IN54354dc48362121071719370ceaad306,54354dc48362121071719370ceaad312"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent>table_name</dependent>
-        <dependent_on_field>table_name</dependent_on_field>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>current</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
-        <mandatory>true</mandatory>
-        <max_length>200</max_length>
-        <model display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</model>
-        <model_id>d8354dc48362121071719370ceaad304</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_d8354dc48362121071719370ceaad304</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:06</sys_created_on>
-        <sys_id>54354dc48362121071719370ceaad306</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:06</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=54354dc48362121071719370ceaad306"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>table_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
-        <mandatory>false</mandatory>
-        <max_length>200</max_length>
-        <model display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</model>
-        <model_id>d8354dc48362121071719370ceaad304</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_d8354dc48362121071719370ceaad304</name>
-        <next_element/>
-        <order>101</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:07</sys_created_on>
-        <sys_id>54354dc48362121071719370ceaad312</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:07</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=54354dc48362121071719370ceaad312"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d8354dc48362121071719370ceaad304"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d8354dc48362121071719370ceaad304"/>
     <sys_hub_flow_output action="delete_multiple" query="model=d8354dc48362121071719370ceaad304"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d8354dc48362121071719370ceaad304"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304^sys_idNOT IN24354dc48362121071719370ceaad39a"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>24354dc48362121071719370ceaad39a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLdtkkUDpBvAybYPaSBQ0tAmSpOuRCnrXeTfO9TFliX6Fjub5CWAODTnzOGZC/Pww+YkBG6f2/ck5GCf2EwoSATh9/MZ4LLSy4EgU22bEhETJZO5fa6SDE5smcSQ2OfuiZ0TnsHdPL2O8Ue4tfhF9XO7MuN3KoI8jQIux0wEkINQaIxZOuNk/le150YbravKGE0YjxMQ9vnD44k9IwkerLTTHy0T054jGpGhB07ku77nOY531nPDUz90vdgn4Dh4YDvgFlJliHsZJnxTIGJAV5TwFAyUJEDiW8Hnix0TZLTkZEq+pew7nn7m6H0UEHsEpW3xGVRslMvRRLIIbmeKSVGulDhLo+TZVHwp8WsegZKMq5pHXMlSPA9mGrIGUSGidxP5NKodfmaiiK4ychkRvvgiSiUszBSkmnDKOFIflNykMksK9KOri9vRZfD3p/uLP65Gwejq7n50fXF/dWk/F3EF/2X6xBJhhSUow3leXP5nBlxfICJOcGMaJWymPkWK5VCBeT5ZivVCipgVnHQEG9WmdFWwVUD1VTrOWs1GjcNr3ZaC1dr4J3McPy6/STxlYm+Nnp4SEgNZo9GQNjTajNOAThlCbga4Sa3Vyi5y7TnOGwm2TKkX63UqY+CXy+NsNI7HqGAmZpnSbD0RodJASbzKOGjwqLcipm0CLmPrqni7gpNM4BHB4oa6Oi6IXDB6w1IM4AFzsGarOBLt9KY6cpQJS+JV4h8ryhIkS1l1VaPXUzKuOKZ3wCFSDVnQr2nz60+WpkyMG6gXTgtWOj4X7lBeVh1S6Ts90PnjC5O4y2/e4q3VdfZOY9elNATqOQOdxK7jh9R1Bk6f0Nh3nMhrpHEXzFqUqnX7r5LO+yVzWuiO76CyNsUVeKcp/J0Uk6/KrSZBq6GqGRfHgeYeCZqnobVqn79X8VvIsly+XFXnptCO3ORJnBP8RbxrDdQbdih2lMungJka9rZCF5Lo33EiMxG3K48+08JZcbnD+qXi79cjFj0qE9gMYHXHG5W7JcO1RomYH6HQ+dQNh9ADB+ubj6Ut7A+HYUQ8SgenA/DcVqFbwjBi+xAFbouwcpMy1xU7o0Zyk7T2KHMHAOyUvL0BHl7sKmEaS11p+xhF7WkCItBPloDrstWpbWPOYqhtL07sjpd8mcqHJjc9G0Z9dzCIBvgQweSmPQiJ2/P6ZDg49c/6reTuQNkEUxlI+CnPk3SeBtVD0pT4X0vT+3pbv6ZCU1BKN5n9e6/A6bT4DSmdNPqfvharqB8ysb5I8dv1cp91B9jWijfqsZrwLij0xVqvCyOUatKZAtD177i+4lpPj2tYecs3UUsP+WpYB7+JoHfWH1LfXE3o0FRNlmDWw3z3Q8OOyZCvTSvT9LCrtnNjiqxt9y9Qa0smzTlgw6ByLFLco5PivR4p/sHDUZ2Lax+CLwH7gbpVMUIc0rK0TwgkbdbpS2mhwUInFqNW9X9AfNeHc0tNACnlOAWjQ0t7P7RANxtGF8pCwT8XSDlXdxoXLlvVrPSmPal168d9wkI8IP2+v2bKHbafsCZAW/C++w61dwLkpnza2Kb2O7d9prFRNdS5qogdW9BRozb3ocOiNnaibVEf3mM2PcANKN5p93j8H2jNB4HAHgAA</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304^sys_idNOT IN64354dc48362121071719370ceaad398,6c354dc48362121071719370ceaad397,6c354dc48362121071719370ceaad398,6c354dc48362121071719370ceaad399"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>64354dc48362121071719370ceaad398</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <ui_id>40ee27a7-48d8-4d4f-9e40-4be60135559f</ui_id>
-        <values>H4sIAAAAAAAA/+VYTW/jNhD9K4LQo+NK/pKdW5HUQNB0U2zSvWwXBCVSMbE0qSWpZJ0g/71DkbIFW7Et1AES9BbODMk3M++N6Hx9DhkJz0Myi2b5bDaeJlE0HEbRZDLMcJymw0mWRikehb1Q4CWFSINTTmH5gHlp13qlUaFkQZVhVIODMF1wvPri/bcrbegy+MuFrCAgWzBOFBXh+ddvvbDACg42VIXnz1uuY5FxnFIOoXce2hZSsyrWS1T5nO26uS345BxSEQsl6oX0p6GCUMCQY65pL1xiQbCRarW2KIrJjeAbw4IJAyeGNvinZk9w7zSycTmFrDLqfOsl8rVy5vwSG3xrVJmZUvnQbCFZBmWt6kFojktuLpo2F3BTGCaF2+LSdrslL5fikytHuD6gbg1YSg0gaGETtch9GvntQj5+rlHOmahq4p1cZpivV9gYxdLSWDzPIeV0CQehJS4KJu4tMR5YtRmwLPv3HBb9nMtHuFSze9HHmQXeh7ri/hzsl5X5C1bMZvEnHAObARDjwBDkWqhlqapSPqCMl7pyKCy0Oyt86VlOXnCs9SZzKDn6UVrcrg4+Y+SKZrdkihXmNzjigfrkXnq1OMZ7KTjbUC6TgjCLQjcUYn3XV3/8zkQuf4GCqlXVLfSoqvT63+lK0wxabv/aFVDX7R3ldTi3Wl4XzeTaEvZC27Fdtx3ghRafTGijKPpIUoPL35/SumvHleCAgGKyl2RkwyctlUGulg0F7YqiM8+PgFDz/MYyM0hXr6HyNM8Z5aTtezK3jq3vyeD/+T15lyQHQAS57jHBmageBwD0rdg/3ku9NN7iWUWvxvvK2rDOdjWAAyODp85KOAJOrYRbuDu4c3haINbzvqLM9qyvjV4Aw5MJYDg4jQCe12muC9lS8/o9aLtZxz/ZeLwdDxRsbIhf2gTW6c64652Dl10BDzspuEk257l8hXMnfji+osjeW46ABWz19yGnX/TIyD01m9vrKCLNI+bf2/yecahuVJXeGzxC472/g9LGI5TlaAmdYwW8lRXNgBwaYUVRLktBkH8lb4hkO5kzpY0P3h00nynoRwQShBmYBQ2q6GAd3fFDfDiPupRXeVAn4m/TASQSVIkE60S6pd1laI1O+Dg99dCaY8arbsAPoKLRTqqUVK8MrgON3MOII6fakaDik4L672OvTQKt4+8A1g/xa/r0oymjOB0N8CQZxnEUxRFJommSxNNJmk9wMso3GkVIiwymKZycA1XgeFRTo+5ztDt/3EjtOmiOQFVT8FKKf8ooGiQmsLCgv0EN6zBwP1BSKTnFYmui3MF34te5x+/5On53U+VD/G+pZHfblXam1lq/1buhZH8L9qOkV5ZiUxoNpjHJzqZJnJyNcjI5mxE8PsOzdJwMCc1G+SmfAt/+BTnzqVWuFQAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>6c354dc48362121071719370ceaad397</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <ui_id>b90d4c41-17f9-4b49-b8d3-a576b8e9e57c</ui_id>
-        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjiv5S3ZuiwQGCrRN0aS9dAuCEqmYWJpUSSquE+S/71CkbMFWbAvrAAn2yJkh+WbmvRHtn08hI+FlSGbRLJ/NxtMkiobDKJpMhhmO03Q4ydIoxaOwFwq8pBBpcMopLB8wL+1arzUqlCyoMoxqcBCmC47XP7z/dq0NXQZfXcgaArIF40RREV7+/NULC6zgYENVePm04zoVGccp5RB656HtIDXrYrNElc/ZPjW3BV+cQypioUS9kP4xVBAKGHLMNe2FSywINlKtNxZFMbkRfGtYMGHgxNAG/9HsEe6dRjYup5BVRp1vs0S+Vs6cX2ODb40qM1MqH5otJMugrFU9CM1xyc1V0+YCbgrDpHBbXNput+TlUnxx5Qg3B9StAUupAQQtbKIWuU8jv13I1bca5ZyJqibeyWWG+WaFjVEsLY3F8xRSTpdwEFriomDi3hLjgVWbAcuyf89h0c+5XMGlmt2LPs4s8D7UFffnYL+uzD+wYjaLz3AMbAZAjANDkGuhlqWqSvmAMl7qyqGw0O6s8LlnOXnFsdbbzKHk6Hdpcbs6+IyRK5rdkilWmL/giAfqk3vu1eIYH6TgbEu5TArCLArdUIj1/V3CVuLyX2G1L5P2oI5SOY6zlspVE2gbeC+aPduntgO8aOKziWYURe9JNnD521NNdx24EhwRQ0wOkoxs+aSlMsjVsqGGfep35vkJEGqe31hmBun6JVSe5jmjnLR9G+bWsfNtGPw/vw1vkuQAiCDXPSY4E9WHHoC+FvvHB6mXxjs8q+jVeCtZG9bZvgZwYGTw2FkJJ8CplXALdwd3Dk8LxHreV5TZnfW10QtgeDYBDAfnEcDTJs1NIVtqXr/tbDfr+Ecbj3fjgYKNDfFzm8A63Rl3vXPwvC/gYScFN8nmPNcvcO7Mj8AXFNl7zRGwgK3+PuT0i1aM3FOzvb2OItKsMP+nze8Zh+pGVem9woMyPvibJm08KFmOltA5VsC7V9EMyKERVhTlshQE+Rfvlki2kzlT2vjg/UHzjYJ+RCBBmIFZ0KCKDjbRHT/Ex/OoS/kxD+pE/G06gESCKpFgk0i3tLsMrdEZH6fnHlpzzHjVDfgxUzTaSZWS6oXBdaSRBxhx4lQ7EVR8VlD/fey1SaB1/B3B+i5+GZ9/NGUUp6MBniTDOI6iOCJJNE2SeDpJ8wlORvlWowhpkcE0hZNzoAocj2pq1H2O9uePG6ldB80JqGoKXkthf0cPEhNYWNDfoIZ1HLgfKKmUnGKxM1Hu4DvxYe7xe76O39xUeRf/E5XsbrfSztRa69d6N5Tsu2C/S/rRUmxKo8E0JtnFNImTi1FOJhczgscXeJaOkyGh2Sg/51Pg179kdqjCehUAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <generation_source/>
-        <order>5</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>6c354dc48362121071719370ceaad398</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <ui_id>8e093811-ef37-45ef-81e5-23f755ac130d</ui_id>
-        <values>H4sIAAAAAAAA/+VY227jNhD9FUHPjiv5JjtP3SY1EDTdAJt0X7YLghKpmChNakkqV+TfdyhStmortoU6QIK+GOBwSJ6ZOWdI+dtzyEh4GpJZNMtns/E0iaLhMIomk2GG4zQdTrI0SvEo7IUCLyl4GpxyCsM7zEs71o8alQ8oxUJQheBXliKjSyoMOBGmC44fv3rf3yqn4NO/nbIF40RREZ5++94LC6zgIENVePq8MXUoUo5TysH1xkPdQG4ei9UQVXPOdtlcFnx2E1IRCyXqhfTBUEEoYMgx17QXLrEg2Ej1uLIoismV4GvDgkGEp2FonR80e4Jzp5H1yylElVE3txoiny9nzs+xwddGlZkplXfNFpJlVLt8EJrjkpuzps05XBWGSeGWuLDdasnLpfjs0hGuNqjLA5ZSAwha2EAtch9Gfr2Q919qlHMmqpz4SS4zzFcjbIxiaWksnueQ8qrIaImLgolbVCh5x6rFgGXZv+Uw6Odc3sOhmt2KPs4s8D7kFffnYD+vzF+xYjaKP2EbWAyAGAeGIFdCLUtVpfIOZbzU1YTCQru9wpee5egZx1qvI4eUox+lxe3y4CNGLml2SaZYYT7BFnfUB/fSq8Uy3knB2ZpymRSEWRS6oZgFsASScXnxx++/bmtkY7ajOPYjq8Vx1oTWBtfLZMt22baBl0l8NJmMougjCQUOf3866c58l4I99I/JTpKRNZ+0VAa5XDb4v835zjw/AELN8yvLzCB9fA2Vp3nOKCdtt8HcTmzcBoP/523wLkkOgAhy1WOCM1Fd7QD0rdg/3km9NN7gWUWvxmvJ2rDOtjWAAyODp85KOABOrYRrODu4cXhaINb9vqLMZq+vjV4Aw6MJYDg4jgCeV2GuEtmS8/o1Z6tZ+z9Zf7zpDxRsLIhf2gTW6cy465mDl20BDzspuEk2N3P+CueO/Ox7RZG9t2wBC1jqz0NOv+iekVtq1qfXXkSae8z/aZv3jEN1oarw3uAJGe/8ikkbT0iWoyVUjhXw0lU0A3JohBVFOXxCEeTfuGsi2UrmTGnjnbcbzRcK+hGBBGEGZkGDyjtYeXe8iPfHUafyIg/qQPxpOoBAgiqQYBVIt7C7NK3RER+nx25ac8x4VQ34fCka5aRKSfVK49pTyB2MOLCrHQgqPiqo/9722iTQ2v72YP0Q38LHb00ZxelogCfJMI6jKI5IEk2TJJ5O0nyCk1G+1ihCWmTQTWHnHKgC26OaGnWdo+3+41pq10ZzAKqagudS/F1G0SAxgYUF9Q1qWPuB+4aSSskpFhsd5QbuiV/mHr/n6/jddZUP8c9QyW42M+1Mrbl+q3dDyf4S7EdJLyzFpjQaTGOSnUyTODkZ5WRyMiN4fIJn6TgZEpqN8mM+Bb7/BAJRCwp8FQAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>6c354dc48362121071719370ceaad399</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <ui_id>a3d3f1f5-258f-42f1-a798-5370267a670d</ui_id>
-        <values>H4sIAAAAAAAA/+VVTU/bQBD9K9GeE8uOEwi5USKkShQkqLgAtcbecVhpvXb3I5Ba+e8d2+skBUSh4oJ6ibTzte89z8ve1ExwNmcT5GF0FB1kcRTH4zAczyZRehCn0ZjHgBixIVNQIFVqzErN6bwC6ZpAXc8wPIpnUTTCPD4cTaaYj2YRTkfjOD+cTiGL4pAHl23fZkOdXJhKwvraD6BIdi8k16jY/OZuyCrQdJdFzeb1k9RbwUpIUVLpZY/2KXq7rpozLzNXoLKJ6INnvnPhM4OvC8pQUwMnCocMHy0qjgQkB2lwyApQHGyp12xutaOARuAXSq63FfdC2Y5oAY9G/KKbJ2FTlyMxy7wI22PiBerC+QIsXNHkzDq91asUGZpOE445OGlP9mNdwUVlRam6Fgup7LtL6Qp13inCtgP2voczBAKrhmeDvKOVX92XD5c9yFOhWkk8RVlmILcnsFaL1NkGTs1QYqtxAVUl1DKpdLkSbTNBKYKlpEOQy/KB7jRiqQLIGtwBqQrBKcUXbfgatGhIfKMx1LwZMrM2JxKM2VEhDZOfrkHSEfMUklaFVoKk3YSmOdOissd01Qo98M3Q2yGdvrZh2dFuofZm7ixBuBL3mKSgFOqEfktHijUaPN/+L23R4PjPovcZ4g1we0N8b9fgZfjeE89iZ/u9g/Mu4R0x/TBHzD6TIzyNT2+JvxkhHL/6V7u3Se3um30TuKIAvb51YRjzum7JrDzegEhWpREWkwKNgSVuNj+6yucO+fdB73PRG7j2LjoVKLl5gXxvISyIAYHqxHhiI58cXPvk9nH5wNcl/Exu+m/el7vfEzRULHAJAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304^sys_idNOT IN6c354dc48362121071719370ceaad395,6c354dc48362121071719370ceaad396"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">39b405848362121071719370ceaad3cf</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <flow_variables_assigned>composite_message</flow_variables_assigned>
-        <generation_source/>
-        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>6c354dc48362121071719370ceaad395</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <ui_id>71c666c9-811c-44bb-95d4-3106876c15c8</ui_id>
-        <values>H4sIAAAAAAAA/+1VwW7bMAz9F51jw06c2OmtaFGgwLYCbdbLUBi0RCfCZMm1pKRZkH8fFTtJ0WK77LJDbtajSL73KMI7ZrxrvbMLc22tXGp29eNlxKQOGH3vmBTsirER09AgfXHTtMZKh2WD1sISKbQG5UNst6vmich4lkZpXs+jrMrmUVWISQTTfFYVOMdpzuNH5KYT8SFrv6d8IW2rYPv8j2X4SirR4SChhY4YO+zY1e5D6CCpTqssmRZZMZmN03Ga5Gmezid5whFATKqKCiqoUP1B81/scNs2hKzrpF4O5y9DqacjSNQDtWTE8M2hFkicalAWR6wBLcCZbntCOgTxoNUZWEnt+rE08GblL+pXJEkSbtZIOjn20dOxHDzu4foWHBAVz53vhqt8ZSRH2zsksAav3M17rL/w0DppdJ/ioFLHbKN8o7/1prBTgeNICfGWSGAbpAbug5D6aWU2j0eWd1IfXBmCynBQpxM48q7yLvDZMS8XH2zukU9Go8KGOpYNtC0hZduZtTx0CcOLl4oOca3MhtiFBYiBB4UxjQDiO8JvD/AzdDLI/UplKDm0+67lq8f78Jjo0QjgUERYpFWU8XERVXw8jWqYCUHvdzae5Gw/YnZrbxRYezaKJlS++iCzt20wqOw9Dim8k627JlJrHLzYv4Sd6/lclvSypJcl/U+XVCCXlnguAqn74z81BLb0NCV/D21M9zMoPGP7317+LJadBwAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">f5b405848362121071719370ceaad3d2</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</flow>
-        <flow_variables_assigned>composite_message</flow_variables_assigned>
-        <generation_source/>
-        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>4</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>6c354dc48362121071719370ceaad396</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <ui_id>5a0ea3bd-09ee-416c-b021-b132d3f36caf</ui_id>
-        <values>H4sIAAAAAAAA/+1WwW7bMAz9lULn2LMTJ3Fz61oUKNCtQNv1shUGLdGJMFlyLSltZuTfR8VOWrTbrrvkJj5K5OMjTbhjxrvGO3tvzqyVS80W3x9HTOqA0bljUrAFYyOmoUY6cVM3xkqHRY3WwhLJtQblg6/rKmWeizW0EkqF8Ye72+0PfQ3WnXz2UolP58poXJx0XZYgjucwj7Jc5FEmsio6xSyJshJnSTqZTqenVXyL3LQithtb+EaAQ1EYvd1SfiFto2Dz8J9p8BVFa3GQsIGWFHPYskX3zrWTtErLLJnmWT6ZjdNxmszTeXo6mSccAcSkLCmgghLVXzT/Rzvcpgku61qpl4N9PYS624NUQ6CWjBi+ONQCiVMFyuKI1aCpLtNuDkiLIG60egVWUrt+LGp4sfIX5cuTJAk3K6Q6Ofbeg1kMPerh6gIcEBXPnW+Hq3xlJEfbKySwAq/c+Vusv3DTOGl0/8SF9g6vjfK1/tqLwg4B9iNBiLdEAptQauA+FFLdrczz7Z7lpdQ7VQanMhzUwQJH2pXeBT4d8/L+ncw98kFoVFhTxqKGpiGkaFqzlrssoXnxUpER7wZWYPgAY+ChwphaAPEl4Rc7+GGY5i8Uhh6HdN+0fPJ4FYaJhkYAhzzCPC2jjI/zqOTjaVTBTIiszGbjyZxtR4ym9lyBta9CUYeKJx/K7GUbBCp6jcMT3srGnRGpNQ5abB/DN9/zOS6J45I4LonjkvjjkhDIpSWe94HU1f6fIjg2NJqSv4WeTfszVPiKbX8D47YhU50IAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d8354dc48362121071719370ceaad304"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d8354dc48362121071719370ceaad304"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=d8354dc48362121071719370ceaad304^sys_idNOT IN2c354dc48362121071719370ceaad383"/>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ceadaca8-e81b-4c28-bc25-fa6dd4b46237</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>composite_message</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>composite_message</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="DW Auto-Update UX Banner Announcement with System Property">d8354dc48362121071719370ceaad304</model>
-        <model_id>d8354dc48362121071719370ceaad304</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d8354dc48362121071719370ceaad304</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>2c354dc48362121071719370ceaad383</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:08</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d8354dc48362121071719370ceaad304^sys_idNOT IN9c354dc48362121071719370ceaad30f,e4354dc48362121071719370ceaad316"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d8354dc48362121071719370ceaad304"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d8354dc48362121071719370ceaad304^sys_idNOT IN0f6710a5c32212100eee71fdd401318e,876710a5c32212100eee71fdd4013195"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -1061,7 +347,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-13 12:18:07</sys_created_on>
-        <sys_id>9c354dc48362121071719370ceaad30f</sys_id>
+        <sys_id>0f6710a5c32212100eee71fdd401318e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
@@ -1084,7 +370,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-13 12:18:08</sys_created_on>
-        <sys_id>e4354dc48362121071719370ceaad316</sys_id>
+        <sys_id>876710a5c32212100eee71fdd4013195</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Table Name</sys_name>
         <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
@@ -1102,25 +388,8 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>6ba009048322121071719370ceaad308</sys_id>
         <latest_snapshot>d8354dc48362121071719370ceaad304</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+        <compiler_build/>
     </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6ba009048322121071719370ceaad308^sys_idNOT INf8354dc48362121071719370ceaad3bb"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f8354dc48362121071719370ceaad3bb","name":"plan","plan_signature":null}}</plan>
-        <plan_id>6ba009048322121071719370ceaad308</plan_id>
-        <snapshot>b2a66ae983e6521071719370ceaad3fb</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-13 12:18:09</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>f8354dc48362121071719370ceaad3bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 12:18:09</sys_updated_on>
-        <trigger display_value="">38354dc48362121071719370ceaad3b9</trigger>
-    </sys_flow_trigger_plan>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6ba009048322121071719370ceaad308"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6ba009048322121071719370ceaad308"/>
 </record_update>

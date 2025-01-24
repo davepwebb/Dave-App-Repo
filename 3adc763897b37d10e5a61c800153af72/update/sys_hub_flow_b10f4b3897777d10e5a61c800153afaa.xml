@@ -5,21 +5,16 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>daf01a4897f1b110e5a61c800153af0b</copied_from>
         <copied_from_name>DW Get GFMS Data</copied_from_name>
         <description>Send a command to the ECC Queue to run the script to use mAuth to get the GFMS REST API</description>
-        <display_name_after_preview/>
-        <flow_priority/>
-        <generation_source/>
         <internal_name>copy_of_dw_get_gfms_data</internal_name>
         <label_cache>[{"name":"44596ed4-826c-4f64-8a75-0ffc7b99a744.Record.agent.name","label":"1 - Look Up Record➛MID Server Capability Record➛MID server➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"ecc_agent","column_name":"name"},{"name":"d7890982-0b61-426a-8e3c-b5278085ec5b.Record.value","label":"2 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value"},{"name":"18029a9f-396c-4250-a92e-7e27f57afb7f.answer.result_elements.u_gfms_api_endpoint","label":"3 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛GFMS API Endpoint","reference":"","reference_display":"GFMS API Endpoint","type":"string","base_type":"string","parent_table_name":"var__m_sys_decision_multi_result_element_988a439197163110e5a61c800153af0c","column_name":"u_gfms_api_endpoint"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <master_snapshot_digest/>
         <name>Copy of DW Get GFMS Data</name>
         <natlang/>
         <outputs/>
@@ -31,7 +26,6 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
-        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-15 17:11:56</sys_created_on>
@@ -48,27 +42,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:58</sys_updated_on>
         <type>flow</type>
-        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_variable_value action="delete_multiple" query="document_key=b10f4b3897777d10e5a61c800153afaa"/>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=b10f4b3897777d10e5a61c800153afaa^sys_idNOT INfd0f4b3897777d10e5a61c800153afaa"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>b10f4b3897777d10e5a61c800153afaa</id>
-        <name>Copy of DW Get GFMS Data</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
-        <sys_id>fd0f4b3897777d10e5a61c800153afaa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fd0f4b3897777d10e5a61c800153afaa"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa^sys_idNOT IN4e0f8b3897777d10e5a61c800153af00"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -104,6 +80,23 @@
         <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=4e0f8b3897777d10e5a61c800153af00"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b10f4b3897777d10e5a61c800153afaa^sys_idNOT INfd0f4b3897777d10e5a61c800153afaa"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b10f4b3897777d10e5a61c800153afaa</id>
+        <name>Copy of DW Get GFMS Data</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
+        <sys_id>fd0f4b3897777d10e5a61c800153afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fd0f4b3897777d10e5a61c800153afaa"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa^sys_idNOT IN3d0f4b3897777d10e5a61c800153affd,b50f4b3897777d10e5a61c800153afc4,f10f4b3897777d10e5a61c800153afcf"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -114,7 +107,6 @@
         <compiled_snapshot>b4b866c897f5b110e5a61c800153af99</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
-        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -181,7 +173,6 @@
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
-        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -249,7 +240,6 @@
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
-        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -294,105 +284,12 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=f10f4b3897777d10e5a61c800153afcf"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f10f4b3897777d10e5a61c800153afcf"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f10f4b3897777d10e5a61c800153afcf"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa^sys_idNOT INf90f4b3897777d10e5a61c800153afb4"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">4e209bdd97163110e5a61c800153af6f</block>
-        <comment/>
-        <connected_to/>
-        <decision_table display_value="">988a439197163110e5a61c800153af0c</decision_table>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <inputs/>
-        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
-        <order>3</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
-        <sys_id>f90f4b3897777d10e5a61c800153afb4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
-        <ui_id>18029a9f-396c-4250-a92e-7e27f57afb7f</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=f90f4b3897777d10e5a61c800153afb4"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
-        <sys_id>310f4b3897777d10e5a61c800153afbb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
-        <value>sys_decision_multi_result</value>
-        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
-        <sys_id>390f4b3897777d10e5a61c800153afbb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
-        <value>0</value>
-        <variable display_value="Use Branches">7f2f5f9173020010cbfec9d234f6a79b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
-        <order>5</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
-        <sys_id>bd0f4b3897777d10e5a61c800153afbb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
-        <value>Get the correct GFMS Endpoint to query</value>
-        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
-        <sys_id>f90f4b3897777d10e5a61c800153afbb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
-        <value>988a439197163110e5a61c800153af0c</value>
-        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=f90f4b3897777d10e5a61c800153afb4"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f90f4b3897777d10e5a61c800153afb4"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=f90f4b3897777d10e5a61c800153afb4"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa^sys_idNOT INc60f8b3897777d10e5a61c800153af02"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
-        <generation_source/>
         <inputs/>
         <order>4</order>
         <parent_ui_id/>
@@ -551,6 +448,97 @@
         <xml_view>false</xml_view>
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c60f8b3897777d10e5a61c800153af02"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b10f4b3897777d10e5a61c800153afaa^sys_idNOT INf90f4b3897777d10e5a61c800153afb4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4e209bdd97163110e5a61c800153af6f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="">988a439197163110e5a61c800153af0c</decision_table>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
+        <sys_id>f90f4b3897777d10e5a61c800153afb4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
+        <ui_id>18029a9f-396c-4250-a92e-7e27f57afb7f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f90f4b3897777d10e5a61c800153afb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
+        <sys_id>310f4b3897777d10e5a61c800153afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
+        <value>sys_decision_multi_result</value>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
+        <sys_id>390f4b3897777d10e5a61c800153afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Use Branches">7f2f5f9173020010cbfec9d234f6a79b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
+        <sys_id>bd0f4b3897777d10e5a61c800153afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
+        <value>Get the correct GFMS Endpoint to query</value>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f90f4b3897777d10e5a61c800153afb4</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 17:11:56</sys_created_on>
+        <sys_id>f90f4b3897777d10e5a61c800153afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
+        <value>988a439197163110e5a61c800153af0c</value>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=f90f4b3897777d10e5a61c800153afb4"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f90f4b3897777d10e5a61c800153afb4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f90f4b3897777d10e5a61c800153afb4"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b10f4b3897777d10e5a61c800153afaa"/>

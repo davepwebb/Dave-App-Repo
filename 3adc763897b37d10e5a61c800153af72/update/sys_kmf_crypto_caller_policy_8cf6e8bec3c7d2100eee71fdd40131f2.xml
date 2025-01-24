@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_snc_core_automation_glideencrypter">bddc8db07722201099808d11681061bc</crypto_module>
+        <crypto_spec display_value="com_snc_core_automation_glideencrypter --- Symmetric Key Wrapping/Unwrapping">71dc8db07722201099808d11681061be</crypto_spec>
+        <granular_operation/>
+        <identity_group_alias/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>eba6115a1bb1b510fe1b43f4bd4bcbbd</owner>
+        <policy_name>AutoGen-script-5e109ee33732130003a08fb77e41f195-global.com_snc_core_automation_glideencrypter</policy_name>
+        <result>track</result>
+        <script_hash>irXKxYuGkN9FHc+dPKwkTa9MBEaUx5s0xPEz310NKIY=</script_hash>
+        <script_table>sys_script</script_table>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 19:40:37</sys_created_on>
+        <sys_id>8cf6e8bec3c7d2100eee71fdd40131f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_8cf6e8bec3c7d2100eee71fdd40131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 19:40:37</sys_updated_on>
+        <target_role/>
+        <target_scope/>
+        <target_script>5e109ee33732130003a08fb77e41f195</target_script>
+        <type>1</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

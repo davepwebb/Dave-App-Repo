@@ -6,8 +6,6 @@
         <action_template/>
         <active>true</active>
         <annotation/>
-        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Utility">e0ecd809838a961071719370ceaad379</category>
         <copied_from/>
@@ -15,12 +13,10 @@
         <description>Custom Flow Action to do Aggregation (GlideAggregation)
 Robert Fedoruk
 https://www.youtube.com/watch?v=Gm80JGzAUeA</description>
-        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>rf_aggregator</internal_name>
         <label_cache>[{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.conditions}}","label":"action➛Conditions","type":"action","ref":"","reference_display":"","base_type":"conditions","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field}}","label":"action➛Field","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].count}}","label":"step➛Aggregate Script➛count","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"bc21f88a-58c4-48fa-a706-32841ffc6285"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].sum}}","label":"step➛Aggregate Script➛sum","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"5959d5d8-78fa-4372-9359-2a83c0c4520f"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].avg}}","label":"step➛Aggregate Script➛avg","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"5d133af2-0377-43cd-bdd3-38b45bd8317a"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].max}}","label":"step➛Aggregate Script➛max","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"ca15ceb4-9427-4c4b-a092-33c64207fe23"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].min}}","label":"step➛Aggregate Script➛min","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"a9190325-dbaa-4bd7-a639-d9c9c9ec4145"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].stddev}}","label":"step➛Aggregate Script➛standard deviation","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"2684ce12-65a7-4517-b09b-541a33a78b5e"}}]</label_cache>
         <master_snapshot>8dc06b9583c2da1071719370ceaad3b6</master_snapshot>
-        <master_snapshot_digest/>
         <name>RF Aggregator</name>
         <natlang/>
         <outputs/>
@@ -41,7 +37,7 @@ https://www.youtube.com/watch?v=Gm80JGzAUeA</description>
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_eb819bdd83ce9a1071719370ceaad3d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-23 00:41:20</sys_updated_on>
+        <sys_updated_on>2024-11-26 01:26:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2506,8 +2502,6 @@ https://www.youtube.com/watch?v=Gm80JGzAUeA</description>
         <action_status/>
         <action_template/>
         <annotation/>
-        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Utility">e0ecd809838a961071719370ceaad379</category>
         <copied_from/>
@@ -2515,7 +2509,6 @@ https://www.youtube.com/watch?v=Gm80JGzAUeA</description>
         <description>Custom Flow Action to do Aggregation (GlideAggregation)
 Robert Fedoruk
 https://www.youtube.com/watch?v=Gm80JGzAUeA</description>
-        <flow_priority/>
         <internal_name>rf_aggregator</internal_name>
         <label_cache>[{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.conditions}}","label":"action➛Conditions","type":"action","ref":"","reference_display":"","base_type":"conditions","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field}}","label":"action➛Field","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].count}}","label":"step➛Aggregate Script➛count","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"bc21f88a-58c4-48fa-a706-32841ffc6285"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].sum}}","label":"step➛Aggregate Script➛sum","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"5959d5d8-78fa-4372-9359-2a83c0c4520f"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].avg}}","label":"step➛Aggregate Script➛avg","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"5d133af2-0377-43cd-bdd3-38b45bd8317a"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].max}}","label":"step➛Aggregate Script➛max","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"ca15ceb4-9427-4c4b-a092-33c64207fe23"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].min}}","label":"step➛Aggregate Script➛min","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"a9190325-dbaa-4bd7-a639-d9c9c9ec4145"}},{"name":"{{step[69f14a3c-3c87-4d55-baef-081e82ca4d92].stddev}}","label":"step➛Aggregate Script➛standard deviation","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"2684ce12-65a7-4517-b09b-541a33a78b5e"}}]</label_cache>
         <master>true</master>

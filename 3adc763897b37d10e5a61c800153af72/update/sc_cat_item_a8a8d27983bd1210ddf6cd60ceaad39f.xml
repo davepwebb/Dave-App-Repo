@@ -24,7 +24,6 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
-        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -41,7 +40,6 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
-        <no_save_as_draft>true</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -75,7 +73,7 @@
         <sys_update_name>sc_cat_item_a8a8d27983bd1210ddf6cd60ceaad39f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2025-01-17 20:18:24</sys_updated_on>
-        <taxonomy_topic display_value="Privacy and security">a754d3a7c3053010069aec4b7d40dd99</taxonomy_topic>
+        <taxonomy_topic display_value="Privacy and Security">a754d3a7c3053010069aec4b7d40dd99</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
