@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template_detail">
     <sc_template_detail action="INSERT_OR_UPDATE">
         <applies_to_multi_row_variable_set>false</applies_to_multi_row_variable_set>
-        <item_option_new display_value="">e29cb81beb813110e466c27849522852</item_option_new>
+        <item_option_new display_value="Hide 'Save as draft' button">e29cb81beb813110e466c27849522852</item_option_new>
         <mandatory>false</mandatory>
         <readonly>true</readonly>
         <restricted>false</restricted>
