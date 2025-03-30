@@ -2,12 +2,12 @@
     <gsw_status_of_content action="INSERT_OR_UPDATE">
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
         <checksum/>
-        <content display_value="Update Value Access">6646152e773a0110a52b1bfaae5a99ca</content>
+        <content display_value="">6646152e773a0110a52b1bfaae5a99ca</content>
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
         <progress>0</progress>
-        <related_log_entry display_value="2025-01-15 19:31:53">d0f4acbac3c7d2100eee71fdd4013134</related_log_entry>
+        <related_log_entry display_value="2025-01-15 11:31:53">d0f4acbac3c7d2100eee71fdd4013134</related_log_entry>
         <status>0</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>

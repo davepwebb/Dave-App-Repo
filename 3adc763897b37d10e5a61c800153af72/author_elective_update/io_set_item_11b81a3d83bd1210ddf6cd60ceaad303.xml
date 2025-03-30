@@ -42,7 +42,7 @@
         <update_guid_history>2238476e0b0612102ddcea2d410fa0cc:-749487443,691e579ce8ce12104d850fd4ee712148:58517638,11ce1fdc00ce12108e9a2a1b23b7949a:541646866,691e579ce8ce12104d850fd4ee712148:58517638,d11e579c6cce12100d1c46be0511ec43:-647740259</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">baf333aa834a1210ddf6cd60ceaad3d0</sys_audit_delete>
+        <sys_audit_delete display_value="Standard Employee Questions.Break Glass Request">baf333aa834a1210ddf6cd60ceaad3d0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-26 22:55:11</sys_created_on>

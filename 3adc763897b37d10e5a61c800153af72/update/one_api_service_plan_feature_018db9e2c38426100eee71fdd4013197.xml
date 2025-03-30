@@ -2,7 +2,6 @@
     <one_api_service_plan_feature action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability_condition/>
-        <applicability_condition_expression/>
         <applicability_condition_table/>
         <applicability_script><![CDATA[(function(featureInput, previousFeatureOutputs) {  
 	/* customize condition logic here, return true or false */  
