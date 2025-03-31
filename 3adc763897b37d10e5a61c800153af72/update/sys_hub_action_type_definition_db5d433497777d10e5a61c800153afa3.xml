@@ -764,6 +764,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=135d433497777d10e5a61c800153afb0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_135d433497777d10e5a61c800153afb0^sys_idNOT IN2f5d433497777d10e5a61c800153afc5,635d433497777d10e5a61c800153afbf,675d433497777d10e5a61c800153afb8,a35d433497777d10e5a61c800153afc9,a75d433497777d10e5a61c800153afc2,eb5d433497777d10e5a61c800153afbb"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>credential_value</element>
         <help/>
@@ -943,6 +944,7 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=1b5d433497777d10e5a61c800153afaa"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=1b5d433497777d10e5a61c800153afaa"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1b5d433497777d10e5a61c800153afaa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1b5d433497777d10e5a61c800153afaa"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Copy of DW Data Stream Action">db5d433497777d10e5a61c800153afa3</action>
         <cid>e6d9e4ce-49db-44fe-9ec3-328c461edd9c</cid>
@@ -984,6 +986,7 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=2f5d433497777d10e5a61c800153afce"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=2f5d433497777d10e5a61c800153afce"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2f5d433497777d10e5a61c800153afce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2f5d433497777d10e5a61c800153afce"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Copy of DW Data Stream Action">db5d433497777d10e5a61c800153afa3</action>
         <cid>70e464f9-51fe-4ede-b946-24f2da0a7941</cid>
@@ -1235,6 +1238,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2f5d433497777d10e5a61c800153afd4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2f5d433497777d10e5a61c800153afd4^sys_idNOT INab5d433497777d10e5a61c800153afdf"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sn_auth_token</element>
         <help/>
@@ -1285,6 +1289,7 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=e35d433497777d10e5a61c800153afee"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=e35d433497777d10e5a61c800153afee"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e35d433497777d10e5a61c800153afee"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e35d433497777d10e5a61c800153afee"/>
     <sys_hub_action_input action="delete_multiple" query="model=db5d433497777d10e5a61c800153afa3"/>
     <sys_hub_action_output action="delete_multiple" query="model=db5d433497777d10e5a61c800153afa3^sys_idNOT IN275d433497777d10e5a61c800153aff3,2f5d433497777d10e5a61c800153afff,3b5d833497777d10e5a61c800153af0f,6b5d833497777d10e5a61c800153af0b,6f5d433497777d10e5a61c800153affb,ab5d833497777d10e5a61c800153af07,af5d433497777d10e5a61c800153aff7,b75d833497777d10e5a61c800153af17,eb5d833497777d10e5a61c800153af03,f75d833497777d10e5a61c800153af13"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -2169,7 +2174,9 @@
         <sys_updated_on>2024-01-15 17:04:42</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3f5d833497777d10e5a61c800153af2e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_db5d433497777d10e5a61c800153afa3"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_db5d433497777d10e5a61c800153afa3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_db5d433497777d10e5a61c800153afa3^sys_idNOT IN235d433497777d10e5a61c800153aff7,2f5d833497777d10e5a61c800153af06,3b5d833497777d10e5a61c800153af16,6f5d833497777d10e5a61c800153af02,7b5d833497777d10e5a61c800153af12,af5d433497777d10e5a61c800153affe,bb5d833497777d10e5a61c800153af0e,eb5d833497777d10e5a61c800153af0a,ef5d433497777d10e5a61c800153affa,f75d833497777d10e5a61c800153af1a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>item_count</element>
         <help/>

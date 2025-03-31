@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" db_object_id="9a291a0a832fd21071719370ceaad30b" extends="cmdb_qb_result_base" label="GRC_a4S3aojC9jxeb1lyvgn0F1LsYlbESUUH-Query Results" max_length="40" name="u_cmdb_qb_result_2abe60e9a665dcca8220ca5a57fc34bae989bffb" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Application 2" max_length="32" name="u_business_application_2" reference="cmdb_ci_business_app" reference_cascade_rule="none" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Group Relationship 3" max_length="32" name="u_group_relationship_3" reference="cmdb_rel_group" reference_cascade_rule="none" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Application 2_Group Relationship 3" max_length="40" name="u_rel_business_application_2_group_relationship_3" type="string"/>
+    </element>
+</database>

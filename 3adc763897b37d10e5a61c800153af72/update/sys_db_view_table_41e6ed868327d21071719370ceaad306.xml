@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:56:52</sys_created_on>
+        <sys_id>41e6ed868327d21071719370ceaad306</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cmdb_ci_business_app</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_db_view_table_41e6ed868327d21071719370ceaad306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:28:56</sys_updated_on>
+        <table>cmdb_ci_business_app</table>
+        <variable_prefix>ba</variable_prefix>
+        <view display_value="u_business_application_to_group_relationship">09d5e1068327d21071719370ceaad347</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

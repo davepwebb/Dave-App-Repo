@@ -553,7 +553,9 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=c60f8b3897777d10e5a61c800153af02"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b10f4b3897777d10e5a61c800153afaa"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b10f4b3897777d10e5a61c800153afaa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b10f4b3897777d10e5a61c800153afaa"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b10f4b3897777d10e5a61c800153afaa"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b10f4b3897777d10e5a61c800153afaa"/>

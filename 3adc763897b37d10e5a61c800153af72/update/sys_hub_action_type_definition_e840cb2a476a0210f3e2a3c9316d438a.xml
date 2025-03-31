@@ -165,6 +165,7 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=9bd0cb2247aa0210f3e2a3c9316d43c4"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=9bd0cb2247aa0210f3e2a3c9316d43c4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9bd0cb2247aa0210f3e2a3c9316d43c4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9bd0cb2247aa0210f3e2a3c9316d43c4"/>
     <sys_hub_action_input action="delete_multiple" query="model=e840cb2a476a0210f3e2a3c9316d438a"/>
     <sys_hub_action_output action="delete_multiple" query="model=e840cb2a476a0210f3e2a3c9316d438a^sys_idNOT IN147107a247aa0210f3e2a3c9316d437d,147107a247aa0210f3e2a3c9316d4385"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -353,7 +354,9 @@
         <sys_updated_on>2024-06-05 19:32:06</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=13d0c76247aa0210f3e2a3c9316d434c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e840cb2a476a0210f3e2a3c9316d438a"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e840cb2a476a0210f3e2a3c9316d438a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e840cb2a476a0210f3e2a3c9316d438a^sys_idNOT IN1c7107a247aa0210f3e2a3c9316d43c8,dc7107a247aa0210f3e2a3c9316d4383"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>

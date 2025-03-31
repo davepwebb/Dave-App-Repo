@@ -268,6 +268,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=183d0bf097777d10e5a61c800153afae"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_183d0bf097777d10e5a61c800153afae^sys_idNOT IN103d0bf097777d10e5a61c800153afd2"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sn_auth_token</element>
         <help/>
@@ -502,7 +503,9 @@
         <sys_updated_on>2024-01-15 17:03:56</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a43d0bf097777d10e5a61c800153aff1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d03d0bf097777d10e5a61c800153afa7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_d03d0bf097777d10e5a61c800153afa7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d03d0bf097777d10e5a61c800153afa7^sys_idNOT IN143d0bf097777d10e5a61c800153afe6,a43d0bf097777d10e5a61c800153afec"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>

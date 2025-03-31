@@ -1609,6 +1609,7 @@ assignment_group: ﻿{{5bbbd624-a0d4-4f39-a192-456362284377.assignment_group}}^a
         <ui_id>8fc69c3b-452a-4364-8b5b-4691b92fe65d</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=a1305ff897777d10e5a61c800153afc2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1305ff897777d10e5a61c800153afc2^sys_idNOT INad305ff897777d10e5a61c800153afce,ad305ff897777d10e5a61c800153afd1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -1656,6 +1657,7 @@ assignment_group: ﻿{{5bbbd624-a0d4-4f39-a192-456362284377.assignment_group}}^a
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1305ff897777d10e5a61c800153afc2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a1305ff897777d10e5a61c800153afc2"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a1305ff897777d10e5a61c800153afc2"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a1305ff897777d10e5a61c800153afc2"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a1305ff897777d10e5a61c800153afc2"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>BusinessApps to NAR Groups (BusinessApps to NAR Groups-Query Results)</display>
+        <filter table="u_cmdb_qb_result_041e16faf9f30db617874029f3f812f40d898374">query.sys_id=javascript: new QueryBuilderReports().getQueryLatestExecutionId('351d468283abd21071719370ceaad356');<item endquery="false" field="query.sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript: new QueryBuilderReports().getQueryLatestExecutionId('351d468283abd21071719370ceaad356');"/>
+        </filter>
+        <name>BusinessApps to NAR Groups</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 16:15:23</sys_created_on>
+        <sys_id>02845a4e83abd21071719370ceaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BusinessApps to NAR Groups (BusinessApps to NAR Groups-Query Results)</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_report_source_02845a4e83abd21071719370ceaad3d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 16:15:23</sys_updated_on>
+        <table>u_cmdb_qb_result_041e16faf9f30db617874029f3f812f40d898374</table>
+    </sys_report_source>
+</record_update>

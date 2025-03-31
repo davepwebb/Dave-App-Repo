@@ -836,6 +836,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f1919bfc97777d10e5a61c800153af1e"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f1919bfc97777d10e5a61c800153af1e"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f1919bfc97777d10e5a61c800153af1e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1919bfc97777d10e5a61c800153af1e^sys_idNOT IN8e919bfc97777d10e5a61c800153af30,ca919bfc97777d10e5a61c800153af2b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -883,6 +884,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1919bfc97777d10e5a61c800153af1e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f1919bfc97777d10e5a61c800153af1e"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f1919bfc97777d10e5a61c800153af1e"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f1919bfc97777d10e5a61c800153af1e"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f1919bfc97777d10e5a61c800153af1e"/>

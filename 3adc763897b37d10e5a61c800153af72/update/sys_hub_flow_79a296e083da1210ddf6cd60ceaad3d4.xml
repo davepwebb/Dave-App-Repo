@@ -44,7 +44,7 @@
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
         <sys_update_name>sys_hub_flow_79a296e083da1210ddf6cd60ceaad3d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-31 20:35:49</sys_updated_on>
+        <sys_updated_on>2025-03-31 22:44:08</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -691,6 +691,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=79a296e083da1210ddf6cd60ceaad3d4"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=79a296e083da1210ddf6cd60ceaad3d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_79a296e083da1210ddf6cd60ceaad3d4^sys_idNOT IN9a1219b6c31212100eee71fdd4013174,de1219b6c31212100eee71fdd401317a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>input1</element>
         <help/>
@@ -738,6 +739,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_79a296e083da1210ddf6cd60ceaad3d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_79a296e083da1210ddf6cd60ceaad3d4"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_79a296e083da1210ddf6cd60ceaad3d4"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1245,6 +1247,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=10b66aa4835e1210ddf6cd60ceaad374"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=10b66aa4835e1210ddf6cd60ceaad374"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_10b66aa4835e1210ddf6cd60ceaad374^sys_idNOT IN1a1219b6c31212100eee71fdd4013154,d21219b6c31212100eee71fdd401316d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>input1</element>
         <help/>
@@ -1292,6 +1295,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_10b66aa4835e1210ddf6cd60ceaad374"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_10b66aa4835e1210ddf6cd60ceaad374"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_10b66aa4835e1210ddf6cd60ceaad374"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>79a296e083da1210ddf6cd60ceaad3d4</sys_id>

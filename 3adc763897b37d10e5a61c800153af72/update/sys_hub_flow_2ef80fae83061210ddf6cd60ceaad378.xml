@@ -44,7 +44,7 @@
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
         <sys_update_name>sys_hub_flow_2ef80fae83061210ddf6cd60ceaad378</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-31 20:35:44</sys_updated_on>
+        <sys_updated_on>2025-03-31 22:44:01</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -54,7 +54,6 @@
         <active>true</active>
         <catalog_item/>
         <name/>
-        <published_version/>
         <run_flow_in/>
         <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -67,7 +66,6 @@
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-26 23:00:16</sys_updated_on>
-        <trigger_definition/>
     </sys_flow_catalog_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2ef80fae83061210ddf6cd60ceaad378"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=2ef80fae83061210ddf6cd60ceaad378"/>
@@ -261,7 +259,6 @@
         <display_text/>
         <flow display_value="DW Reinstate RW Admin Access - Break Glass">2ef80fae83061210ddf6cd60ceaad378</flow>
         <name>Service Catalog</name>
-        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-26 22:01:59</sys_created_on>
@@ -732,7 +729,9 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2ef80fae83061210ddf6cd60ceaad378"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=2ef80fae83061210ddf6cd60ceaad378"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2ef80fae83061210ddf6cd60ceaad378"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2ef80fae83061210ddf6cd60ceaad378"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2ef80fae83061210ddf6cd60ceaad378"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2ef80fae83061210ddf6cd60ceaad378"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -790,7 +789,6 @@
         <display_text/>
         <flow display_value="DW Reinstate RW Admin Access - Break Glass">f0c3f76a834a1210ddf6cd60ceaad362</flow>
         <name>Service Catalog</name>
-        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-26 22:54:15</sys_created_on>
@@ -1261,7 +1259,9 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f0c3f76a834a1210ddf6cd60ceaad362"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f0c3f76a834a1210ddf6cd60ceaad362"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f0c3f76a834a1210ddf6cd60ceaad362"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f0c3f76a834a1210ddf6cd60ceaad362"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f0c3f76a834a1210ddf6cd60ceaad362"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f0c3f76a834a1210ddf6cd60ceaad362"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>2ef80fae83061210ddf6cd60ceaad378</sys_id>

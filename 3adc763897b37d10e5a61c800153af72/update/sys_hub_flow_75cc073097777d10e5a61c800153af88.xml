@@ -1212,7 +1212,9 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_75cc073097777d10e5a61c800153af88"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_75cc073097777d10e5a61c800153af88"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_75cc073097777d10e5a61c800153af88"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_75cc073097777d10e5a61c800153af88"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=75cc073097777d10e5a61c800153af88"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=75cc073097777d10e5a61c800153af88"/>

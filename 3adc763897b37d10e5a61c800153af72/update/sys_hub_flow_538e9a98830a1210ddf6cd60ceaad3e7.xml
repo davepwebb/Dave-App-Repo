@@ -44,7 +44,7 @@
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
         <sys_update_name>sys_hub_flow_538e9a98830a1210ddf6cd60ceaad3e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-31 20:35:46</sys_updated_on>
+        <sys_updated_on>2025-03-31 22:44:04</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -883,7 +883,9 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=538e9a98830a1210ddf6cd60ceaad3e7"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=538e9a98830a1210ddf6cd60ceaad3e7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_538e9a98830a1210ddf6cd60ceaad3e7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_538e9a98830a1210ddf6cd60ceaad3e7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_538e9a98830a1210ddf6cd60ceaad3e7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_538e9a98830a1210ddf6cd60ceaad3e7"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1583,7 +1585,9 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=849e1e98830a1210ddf6cd60ceaad322"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=849e1e98830a1210ddf6cd60ceaad322"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_849e1e98830a1210ddf6cd60ceaad322"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_849e1e98830a1210ddf6cd60ceaad322"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_849e1e98830a1210ddf6cd60ceaad322"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_849e1e98830a1210ddf6cd60ceaad322"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>538e9a98830a1210ddf6cd60ceaad3e7</sys_id>
