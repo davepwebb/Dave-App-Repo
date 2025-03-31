@@ -765,7 +765,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0b211bbc97777d10e5a61c800153afda"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=0b211bbc97777d10e5a61c800153afda"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=0b211bbc97777d10e5a61c800153afda"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b211bbc97777d10e5a61c800153afda^sys_idNOT IN17211bbc97777d10e5a61c800153afe7,17211bbc97777d10e5a61c800153afea"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -813,7 +812,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b211bbc97777d10e5a61c800153afda"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b211bbc97777d10e5a61c800153afda"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b211bbc97777d10e5a61c800153afda"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0b211bbc97777d10e5a61c800153afda"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0b211bbc97777d10e5a61c800153afda"/>

@@ -243,6 +243,7 @@
         <display_text/>
         <flow display_value="Copy of DW Auto-Update UX Banner Announcement with System Property">8ddecc918363121071719370ceaad375</flow>
         <name>Created</name>
+        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-04 22:35:48</sys_created_on>
@@ -506,7 +507,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8ddecc918363121071719370ceaad375^sys_idNOT IN19de00d18363121071719370ceaad310,99de00d18363121071719370ceaad30d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -554,7 +554,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8ddecc918363121071719370ceaad375"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8ddecc918363121071719370ceaad375"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8ddecc918363121071719370ceaad375"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8ddecc918363121071719370ceaad375"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8ddecc918363121071719370ceaad375"/>

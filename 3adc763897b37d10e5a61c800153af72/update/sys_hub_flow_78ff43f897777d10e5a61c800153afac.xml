@@ -1428,7 +1428,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=78ff43f897777d10e5a61c800153afac"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=78ff43f897777d10e5a61c800153afac"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=78ff43f897777d10e5a61c800153afac"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_78ff43f897777d10e5a61c800153afac^sys_idNOT IN09ff43f897777d10e5a61c800153afd2,09ff83f897777d10e5a61c800153af28,49ff43f897777d10e5a61c800153afd5,49ff83f897777d10e5a61c800153af2b,89ff43f897777d10e5a61c800153afd8,89ff83f897777d10e5a61c800153af2e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>record_sysid</element>
         <help/>
@@ -1568,7 +1567,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_78ff43f897777d10e5a61c800153afac"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_78ff43f897777d10e5a61c800153afac^sys_idNOT IN85ff83f897777d10e5a61c800153af36,c5ff83f897777d10e5a61c800153af39"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>code</element>
         <help/>

@@ -44,7 +44,7 @@
         <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
         <sys_update_name>sys_hub_flow_7e40ba1e83021210ddf6cd60ceaad3f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-03 21:46:55</sys_updated_on>
+        <sys_updated_on>2025-03-31 20:35:49</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -58,6 +58,7 @@
         <on_delete>false</on_delete>
         <on_insert>false</on_insert>
         <on_update>true</on_update>
+        <published_version/>
         <run_flow_in>background</run_flow_in>
         <run_on_extended>false</run_on_extended>
         <run_when_setting>both</run_when_setting>
@@ -75,6 +76,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-26 00:55:37</sys_updated_on>
         <table>sys_properties</table>
+        <trigger_definition/>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -204,7 +206,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">14178d7f8dc20210d0ad51af41866361</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -388,6 +390,7 @@
         <display_text/>
         <flow display_value="DW Reinstate RW Admin Access - During Clone - Property Trigger">7e40ba1e83021210ddf6cd60ceaad3f7</flow>
         <name>Updated</name>
+        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-26 00:26:41</sys_created_on>
@@ -501,9 +504,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=7e40ba1e83021210ddf6cd60ceaad3f7"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=7e40ba1e83021210ddf6cd60ceaad3f7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7e40ba1e83021210ddf6cd60ceaad3f7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7e40ba1e83021210ddf6cd60ceaad3f7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7e40ba1e83021210ddf6cd60ceaad3f7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7e40ba1e83021210ddf6cd60ceaad3f7"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -561,6 +562,7 @@
         <display_text/>
         <flow display_value="DW Reinstate RW Admin Access - During Clone - Property Trigger">bcf5c3d283c21210ddf6cd60ceaad3c9</flow>
         <name>Updated</name>
+        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-26 00:55:36</sys_created_on>
@@ -674,9 +676,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bcf5c3d283c21210ddf6cd60ceaad3c9"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=bcf5c3d283c21210ddf6cd60ceaad3c9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bcf5c3d283c21210ddf6cd60ceaad3c9"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bcf5c3d283c21210ddf6cd60ceaad3c9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_bcf5c3d283c21210ddf6cd60ceaad3c9"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bcf5c3d283c21210ddf6cd60ceaad3c9"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>7e40ba1e83021210ddf6cd60ceaad3f7</sys_id>
