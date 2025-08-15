@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0b211bbc97777d10e5a61c800153afda"/>
@@ -242,6 +243,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Copy of Göran Lundqvist - Automation via Record Producer">0b211bbc97777d10e5a61c800153afda</flow>
+        <generation_source/>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -255,6 +257,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab215bbc97777d10e5a61c800153af2a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -308,6 +311,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <ui_id>04846bb5-800e-4f29-9f1a-720746f73213</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=97215bbc97777d10e5a61c800153af02"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -386,6 +390,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <ui_id>36cb6942-b57a-45af-b2d2-97d21a512c17</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=97215bbc97777d10e5a61c800153af11"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -450,6 +455,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <ui_id>44433b1c-4608-4a9f-abee-5f40874dbfd6</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a3215bbc97777d10e5a61c800153af2a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a3215bbc97777d10e5a61c800153af2a"/>
@@ -476,6 +482,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <ui_id>cd52a59c-824f-4d52-b94b-3858199af03d</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d3215bbc97777d10e5a61c800153af0a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -574,6 +581,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <ui_id>bcfd616d-aa87-457c-829d-089d0c86dd34</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -609,6 +617,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:19</sys_updated_on>
         <ui_id>25c2a291-43f6-4f74-8b74-2c0a8106bc23</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -682,6 +691,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:20</sys_updated_on>
         <ui_id>a8f3b67e-8612-4be1-979b-6d26ee2bb49e</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -717,6 +727,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:21:19</sys_updated_on>
         <ui_id>5eef88e6-62c0-4069-9cc9-5fa9bd72ee87</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -765,7 +776,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0b211bbc97777d10e5a61c800153afda"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=0b211bbc97777d10e5a61c800153afda"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=0b211bbc97777d10e5a61c800153afda"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b211bbc97777d10e5a61c800153afda^sys_idNOT IN17211bbc97777d10e5a61c800153afe7,17211bbc97777d10e5a61c800153afea"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -813,7 +823,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b211bbc97777d10e5a61c800153afda"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b211bbc97777d10e5a61c800153afda"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b211bbc97777d10e5a61c800153afda"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0b211bbc97777d10e5a61c800153afda"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0b211bbc97777d10e5a61c800153afda"/>

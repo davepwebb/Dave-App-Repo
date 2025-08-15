@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:20:11</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9ae05f7c97777d10e5a61c800153af3a"/>
@@ -67,29 +68,6 @@
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d6e05f7c97777d10e5a61c800153af3b"/>
     <sys_hub_flow_input action="delete_multiple" query="model=9ae05f7c97777d10e5a61c800153af3a^sys_idNOT IN2ae05f7c97777d10e5a61c800153af7d,6ee05f7c97777d10e5a61c800153af48,a6e05f7c97777d10e5a61c800153af44"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FDCollection</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>global</scope_name>
-        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path/>
-        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
-        <sys_mod_count>101</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
-        <type>complex_object_collection</type>
-    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -349,6 +327,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Copy of Update Netcool via the Event Queue">9ae05f7c97777d10e5a61c800153af3a</flow>
+        <generation_source/>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -362,6 +341,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26e05f7c97777d10e5a61c800153af8e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -415,6 +395,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:20:11</sys_updated_on>
         <ui_id>a06e383c-6f7f-4702-94db-cf89e291fef0</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=22e05f7c97777d10e5a61c800153af8a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -451,7 +432,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9ae05f7c97777d10e5a61c800153af3a"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=9ae05f7c97777d10e5a61c800153af3a"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=9ae05f7c97777d10e5a61c800153af3a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9ae05f7c97777d10e5a61c800153af3a^sys_idNOT IN22e05f7c97777d10e5a61c800153af80,aae05f7c97777d10e5a61c800153af7c,eee05f7c97777d10e5a61c800153af47"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
         <help/>
@@ -522,7 +502,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9ae05f7c97777d10e5a61c800153af3a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9ae05f7c97777d10e5a61c800153af3a"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9ae05f7c97777d10e5a61c800153af3a"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9ae05f7c97777d10e5a61c800153af3a"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9ae05f7c97777d10e5a61c800153af3a"/>

@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:15:02</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=bebfc7b897777d10e5a61c800153af91"/>
@@ -242,6 +243,7 @@
         <comment>Newly created Brinqa Issues also want to pass the component</comment>
         <display_text/>
         <flow display_value="Copy of Issue Tag with subflow">bebfc7b897777d10e5a61c800153af91</flow>
+        <generation_source/>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -255,6 +257,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4fbf0bb897777d10e5a61c800153af1b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -308,6 +311,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:15:01</sys_updated_on>
         <ui_id>ec48670f-2cef-4925-b3a8-c50ff499de12</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=03bf0bb897777d10e5a61c800153af1a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -385,6 +389,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:15:01</sys_updated_on>
         <ui_id>52ad3b42-314f-42dc-8656-dd0780b8e1ab</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8fbfc7b897777d10e5a61c800153afe0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -469,6 +474,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:15:01</sys_updated_on>
         <ui_id>205e34bb-a9de-401a-84ac-08c125555a0f</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -504,6 +510,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:15:01</sys_updated_on>
         <ui_id>4396c0a1-f03e-4037-a34b-3f77d1a813e8</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -544,6 +551,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:15:02</sys_updated_on>
         <ui_id>c67ed402-92d7-4254-9173-fa7d4fee1ab0</ui_id>
+        <updation_source/>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=47bf0bb897777d10e5a61c800153af1d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -690,7 +698,6 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=47bf0bb897777d10e5a61c800153af1d"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bebfc7b897777d10e5a61c800153af91"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=bebfc7b897777d10e5a61c800153af91"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bebfc7b897777d10e5a61c800153af91^sys_idNOT IN36bfc7b897777d10e5a61c800153afa1,76bfc7b897777d10e5a61c800153af9e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -738,7 +745,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bebfc7b897777d10e5a61c800153af91"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_bebfc7b897777d10e5a61c800153af91"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bebfc7b897777d10e5a61c800153af91"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=bebfc7b897777d10e5a61c800153af91"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=bebfc7b897777d10e5a61c800153af91"/>

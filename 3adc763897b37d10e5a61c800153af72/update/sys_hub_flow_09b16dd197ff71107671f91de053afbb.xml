@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-16 23:04:11</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=09b16dd197ff71107671f91de053afbb"/>
@@ -75,9 +76,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=09b16dd197ff71107671f91de053afbb"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=09b16dd197ff71107671f91de053afbb"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=09b16dd197ff71107671f91de053afbb"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_09b16dd197ff71107671f91de053afbb"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_09b16dd197ff71107671f91de053afbb"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_09b16dd197ff71107671f91de053afbb"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_09b16dd197ff71107671f91de053afbb"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=09b16dd197ff71107671f91de053afbb"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=09b16dd197ff71107671f91de053afbb"/>

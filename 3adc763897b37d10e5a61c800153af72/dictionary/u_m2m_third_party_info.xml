@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ac3ce4cf831fa21471719370ceaad3da" label="u_m2m_Third Party Information" max_length="40" name="u_m2m_third_party_info" type="collection">
+        <element attributes="encode_utf8=false" label="Third Party Information" max_length="32" name="u_cmdb_ci_business_app" reference="cmdb_ci_business_app" type="reference"/>
+        <element label="External Host" max_length="50" name="u_external_host" type="string"/>
+        <element label="External ID" max_length="100" name="u_external_id" type="string"/>
+        <element attributes="encode_utf8=false" label="Incidents" max_length="32" name="u_incident" reference="incident" type="reference"/>
+        <element choice="3" choice_field="incident_state" choice_table="incident" default="New" label="Incident State" max_length="30" name="u_incident_state" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_cmdb_ci_business_app"/>
+        </index>
+        <index name="index2">
+            <element name="u_incident"/>
+        </index>
+    </element>
+</database>

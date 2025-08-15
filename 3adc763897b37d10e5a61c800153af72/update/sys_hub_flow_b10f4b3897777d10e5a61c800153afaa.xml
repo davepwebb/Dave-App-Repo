@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:58</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b10f4b3897777d10e5a61c800153afaa"/>
@@ -74,6 +75,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Copy of DW Get GFMS Data">b10f4b3897777d10e5a61c800153afaa</flow>
+        <generation_source/>
         <name>Daily</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -87,6 +89,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>daily</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4e0f8b3897777d10e5a61c800153af00"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -126,6 +129,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:57</sys_updated_on>
         <ui_id>43808f69-88a3-4187-a440-895a7269f9f4</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3d0f4b3897777d10e5a61c800153affd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -193,6 +197,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:57</sys_updated_on>
         <ui_id>44596ed4-826c-4f64-8a75-0ffc7b99a744</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b50f4b3897777d10e5a61c800153afc4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -261,6 +266,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:57</sys_updated_on>
         <ui_id>d7890982-0b61-426a-8e3c-b5278085ec5b</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f10f4b3897777d10e5a61c800153afcf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -323,6 +329,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:56</sys_updated_on>
         <ui_id>18029a9f-396c-4250-a92e-7e27f57afb7f</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -407,6 +414,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:11:58</sys_updated_on>
         <ui_id>7e8a4d51-452d-4886-a78a-4035f9546dc8</ui_id>
+        <updation_source/>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c60f8b3897777d10e5a61c800153af02"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -553,9 +561,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=c60f8b3897777d10e5a61c800153af02"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=b10f4b3897777d10e5a61c800153afaa"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b10f4b3897777d10e5a61c800153afaa"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b10f4b3897777d10e5a61c800153afaa"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b10f4b3897777d10e5a61c800153afaa"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b10f4b3897777d10e5a61c800153afaa"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b10f4b3897777d10e5a61c800153afaa"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b10f4b3897777d10e5a61c800153afaa"/>

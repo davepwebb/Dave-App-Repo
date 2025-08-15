@@ -48,6 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f1919bfc97777d10e5a61c800153af1e"/>
@@ -242,6 +243,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Copy of Test Flow">f1919bfc97777d10e5a61c800153af1e</flow>
+        <generation_source/>
         <name>Service Catalog</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -255,6 +257,7 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c2919bfc97777d10e5a61c800153af87"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=f1919bfc97777d10e5a61c800153af1e^sys_idNOT IN02919bfc97777d10e5a61c800153af78,46919bfc97777d10e5a61c800153af4b,86919bfc97777d10e5a61c800153af7e,c2919bfc97777d10e5a61c800153af85"/>
@@ -280,6 +283,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>378b4c56-e072-462b-a45b-ca32159356b6</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02919bfc97777d10e5a61c800153af78"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -358,6 +362,7 @@ Created by: {{Service Catalog_1.request_item.sys_created_by}}</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>bfcdb194-4f49-42a3-9c50-e5bf361e2409</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=46919bfc97777d10e5a61c800153af4b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -449,6 +454,7 @@ Created by: {{Service Catalog_1.request_item.sys_created_by}}</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>dfbdb0b3-f0c2-41cf-b7a6-ca04bc29aad0</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86919bfc97777d10e5a61c800153af7e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -540,6 +546,7 @@ Created by: {{Service Catalog_1.request_item.sys_created_by}}</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>6ec5b6d6-5a7e-438d-a959-fa290f0de939</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c2919bfc97777d10e5a61c800153af85"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -614,6 +621,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>4fd84695-ab53-4f90-a88b-ea3686ba0815</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -648,6 +656,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>c9f67f18-c49a-4be9-a254-346cbc7354bf</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -682,6 +691,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>12226160-cdbe-4c8e-94ca-eade80dfc4b7</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -717,6 +727,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>117fa954-0d71-4e9e-ac24-6e6548a5c185</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -764,6 +775,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -827,6 +839,7 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-15 17:23:09</sys_updated_on>
         <ui_id>9ba537fd-d1fe-433a-86a6-3fd362871dc1</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -836,7 +849,6 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f1919bfc97777d10e5a61c800153af1e"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f1919bfc97777d10e5a61c800153af1e"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f1919bfc97777d10e5a61c800153af1e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1919bfc97777d10e5a61c800153af1e^sys_idNOT IN8e919bfc97777d10e5a61c800153af30,ca919bfc97777d10e5a61c800153af2b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -884,7 +896,6 @@ Message: {{f4bc8dc8-7004-4cd3-a8f1-0c96e14cd604.__status__.message}}^short_descr
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1919bfc97777d10e5a61c800153af1e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f1919bfc97777d10e5a61c800153af1e"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f1919bfc97777d10e5a61c800153af1e"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f1919bfc97777d10e5a61c800153af1e"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f1919bfc97777d10e5a61c800153af1e"/>

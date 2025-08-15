@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Query Builder Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Query Builder Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">39a6b4f57d71311076daf29f52070dee</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 12:53:05</sys_created_on>
+        <sys_id>522556f38361221071719370ceaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Builder Results</sys_name>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_wizard_answer_522556f38361221071719370ceaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 12:53:05</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_2abe60e9a665dcca8220ca5a57fc34bae989bffb.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
